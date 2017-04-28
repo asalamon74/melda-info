@@ -1,0 +1,5 @@
+#Options All
+#  
+DirectoryIndex index.html
+RewriteEngine on
+RewriteRule ^index\.php$ /tux/index.html [R=301,L]

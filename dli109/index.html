@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width;
+  initial-scale=1.0;" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/scripts/imagemapster/jquery.imagemapster.js?v=1.2.10"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+
+  <title>D-LI109</title>
+  <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
+  <meta name="keywords"
+	content="pentax, akkumulátor, D-LI109" />
+  <meta name="description" content="D-LI109 teszt" />
+
+  <script>
+  $(function(){
+  $("footer").load("../footer.html"); 
+  });
+  </script>
+
+</head>
+
+<body>
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+  <ul>
+    <li id='p1'><a href="#bevezetes">1. Bevezetés </a></li>
+    <li id='p1'><a href="#bevezetes">2. Teszt </a></li>    
+    <li id='p1'><a href="#bevezetes">3. Eredmények </a></li>
+
+  </ul>
+</div>
+
+<div id="topbar">
+    <p>&nbsp;
+    <a style="float:right;" href="../en/dli109/" class="flag-icon flag-icon-gb-eng"></a>
+    <span style="float:right; margin-right: 0.5em;" class="flag-icon flag-icon-hu"></span>
+    </p>
+  </div>
+
+<div class='main'>
+
+<div class='section' id='bevezetes'>
+
+<h1>Pentax D-LI109 teszt</h1>
+
+<p>Bár a ceruzaelemek használata sok szempontból nagyon kényelmes volt, az újabb Pentax fényképezőgépek speciális Lítium-ion akkumulátort használnak.
+  A <a href="http://www.ricoh-imaging.hu/hu/akkumulatorok/Lithium-ion-rechargeable-battery-D-LI109.html">D-LI109</a> akkumulát elég sok Pentax
+  vázban használható ( K-R, K-S1, K-S2, K-30, K-50, K-70, K-500, ... ).</p>
+
+<p>Az eredeti D-LI109 elég drága, kb. 20000-22000 Ft-ba kerül. Utángyárott D-LI109-et ennél sokkal olcsóbban lehet venni, akár 3000-4000 Ft-ért is.
+  Én végül ebay-en vettem 2 db. utángyártott VHBW akkumulátort összesen (postaköltséggel együtt) kevesebb mint 6000 Ft-ért. Úgy gondoltam hasznos lenne
+  megnézni, vajon gyengébb-e az utángyártott.</p> 
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Pentax 7.8Wh"
+					     href="k70_0134.jpg"><img src="k70_0134_th.jpg"
+								      alt="Pentax"/></a>
+<figcaption>Pentax 7.8Wh</figcaption>
+</figure>
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="VHBW 6.5Wh"
+					     href="k70_0137.jpg"><img src="k70_0137_th.jpg"
+								      alt="VHBW"/></a>
+<figcaption>VHBW 6.5Wh</figcaption>
+</figure>
+
+</div>
+
+<div class='section' id='teszt'>
+
+<h2>A teszt</h2>
+
+<p>Egy Pentax K-70 géppel teszteltem az akkumulátorokat. Számtalan módon lehet tesztet végezni, a legegyszerűbbnek az lett volna, ha beállítom, hogy a
+gép percenként készítsen egy felvételt, majd megnézem, hogy egy teljesen feltöltött aksival hány fényképet tud a gép készíteni.
+A képeket <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftoollal</a> elemezve azt is meg lehet vizsgálni, hogy merül le folyamatosan
+  az akkumulátor. A módszer hátránya, hogy elég sok felesleges képet készítene a gép, így inkább olyan megoldást kerestem ami nem terheli annyira a zárat.</p>
+
+<p>A teszthez a <a href="pktriggercord.melda.info">pktriggercord</a> programot (Pentax gépeket vezérlő saját fejlesztésű program) használtam miután egy USB
+kábellel összekötöttem a fényképezőgépet és a számítógépet. A program többek között az akkumulátor feszültségét is ki tudja olvasni. Két értéket lehet kiolvasni
+(V<sub>1</sub> és V<sub>2</sub>), ezeket még a mindentudó exiftool is egyszerűen voltage1, voltage2 néven ismeri. Vélhetően üresjárati feszültségről
+és kapocsfeszültségről van itt szó, amit az is megerősít, hogy mindig igaz, hogy V<sub>1</sub> > V<sub>2</sub>.</p>
+
+<p>A program félpercenként olvassa ki az értékeket, miközben a fényképezőgép nem végez semmi egyéb munkát. Teljesen feltöltött akkumulátorokat vizsgáltam.
+  Vadonat újakat, egy-két alkalommal voltak csak töltve előtte.</p>
+
+<p>A teszt nyilvánvalóan nem teljes, rengeteg mindent lehetne még vizsgálni. Nem mond arról semmit pl. hogy miként fognak viselkedni az akkumulátorok 100
+  töltési ciklus után, hogy reagálnak az extrém hidegre, a nagyobb terhelésre...</p>
+
+</div>
+
+<div class='section' id='eredmenyek'>
+
+
+<h2>Eredmények</h2>
+
+<p>Az eredeti Pentax akkumulátor 6 óra 15 perc alatt merült le, az utángyártott VHBW 4 óra 42 perc alatt.
+  A kiolvasott adatok alapján <a href="http://www.gnuplot.info/">gnuplottal</a> gyártottam egy ábrát, ami mutatja, hogy az idő múlásával hogyan merültek le szépen folyamatosan az akkumulátorok.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title=""
+					     href="dli109_battery_test.png"><img style="width:100%; height:100%"
+					     src="dli109_battery_test.png"
+					     alt=""/></a>
+</figure>
+
+<p style="clear: both;">Az eredményeket megvizsgálva nekem a következő látszik:</p>
+  <ul>
+    <li>A gép akkor merül le, amikor V<sub>2</sub> (a kapocsfeszültség) 6.79V alá csökkent.</li>
+    <li>Az eredeti akkumulátor tovább bírja az utángyártottnál.</li>
+    <li>A különbség nagyobb mint amit a 7.8Wh - 6.5Wh alapján vártam volna</li>
+    <li>A különbség viszont még mindig sokkal kisebb mint az ár különbözete alapján gondolhatnánk. Speciális eseteket leszámítva érdemesebbnek tűnik ugyanannyi
+      pénzből venni inkább 5-6 utángyártott aksit az 1 eredeti helyett.</li>
+  </ul>
+
+</div>
+  
+</div>
+
+<footer>
+</footer>
+</body>
+</html>

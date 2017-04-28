@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+
+  
+  <title>Teljes napfogyatkozás 2016.</title>
+  <meta name="generator" content="amaya 8.6, see http://www.w3.org/Amaya/" />
+  <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
+  <meta name="keywords"
+  content="napfogyatkozás, nap, fényképezés, fotó, Indonézia, Pentax, Revue, Chinon"
+  />
+  <style>
+    div.imagecaption, figure.image {
+    margin: 0.4em;
+    }
+    iframe {
+    border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+  <ul>
+  <li id='p1'><a href="#bevezetes">1. Bevezetés </a></li>
+  <li id='p2'><a href="#reszleges">2. Részleges</a></li>
+  <li id='p3'><a href="#totalitas">3. Totalitás</a></li>
+  <li id='p4'><a href="#gyemant">4. Baily</a></li>
+  <li id='p5'><a href="#video">5. Videó</a></li>
+  <li id='p6'><a href="#multiexpo">6. Multiexpó</a></li>
+  <li id='p7'><a href="#allvanyno">7. Állvány nélkül</a></li>
+  </ul>
+</div>
+
+<div class='main'>
+
+<h1>EZ AZ OLDAL MÉG NINCS KÉSZ</h1>
+  
+<h1>Teljes napfogyatkozás 2016. Indonézia</h1>
+
+<p>A szokásos figyelmeztetés: <span
+style="color: #E50000">A totalitás fázisát kivéve
+szűrőfólia nélkül ne nézz a napba, pláne ne távcsővel!</span></p>
+
+<div class='section' id='bevezetes'>
+
+<h2>Hely, idő</h2>
+
+<p>2016. március 09. Észlelési hely Indonézia, Sulawesi (Celebesz), Kotapulu,
+  Paluhoz közel. Itt figyelte a napfogyatkozást Indonézia
+  elnökhelyettese is, el is tartott egy ideig, míg meggyőztük a
+  helyieket, hogy mi a napfogyatkozásra vagyunk kíváncsiak, és nem a
+  politikusra. Elég nemzetközi csapat jött össze. Nem mi voltunk az
+  egyedüli magyarok, egy nálunk sokkal rutinosabb magyar
+  megfigyelőpáros is volt ott. Az ő képeiket <a href="https://www.youtube.com/watch?v=KQD3cBf2gzk">itt</a> lehet megnézni.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8008_web.jpg" title="Reptér"><img
+        src="imgp8008_th.jpg" /></a>
+<figcaption>Reptér</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp2876_web.jpg" title="Palu"><img
+        src="imgp2876_th.jpg" /></a>
+<figcaption>Palu</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp2877_web.jpg" title="Palu"><img
+        src="imgp2877_th.jpg" /></a>
+<figcaption>Palu</figcaption>
+</figure>
+
+
+<div class="clear"></div>
+<p>
+Az észlelési hely koordinátája: 
+<a href="http://maps.google.com/maps?z=12&t=k&q=loc:-0.990821+119.874038">0.990821
+  S,119.874038 E</a>.
+</p>
+
+<p>A totalitás sávja jól látható <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2016_GoogleMapFull.html">ezen a google térképen</a>.</p>
+
+<h3>Felszerelés</h3>
+
+A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön jelzem):
+
+<ul>
+<li>Állvány: EQ-3. Ellensúlynak vízzel töltött műanyag flakonokat
+  használtam. Nem túl meglepő, de sokkal kényelmesebb volt ezt az
+  állványt használni (Napot megkeresni, Napot követni), mint a
+  fényképezőgépállványt a <a href="../napfogy2006">törökországi
+  napfogyatkozáskor</a>.</li> 
+<li>Távcső: SkyWatcher Makszutov-Cassegrain 102/1300</li>
+<li>Fényképezőgép: <a href="http://kmp.bdimitrov.de/bodies/K/Kx.html">Pentax
+    K-x</a> (APS-C digitális gép)</li>
+<li>A távcsővet egy T2-K bajonett adapterrel csatlakoztattam a fényképezőgéphez (T2-adapter létezik az összes ismertebb fényképezőgéptípushoz),
+  így lényegében egy 1300mm-es F/12.7 fényerejű teleobjektívval fényképeztem. Az előzetesen vártaknak megfelelően kb. 12mm-es a
+  szenzoron a nap képe. Ez eléggé közel van az APS-C szenzor méretéhez (23.6 x 15.8 mm).</li>
+<li>Filter: Baader Astrosolar OD 3.8.</li>
+<li>A képeket vezeték nélküli távkioldóval (Ebayről 300Ft)
+  készítettem, hogy minél kevésbé mozduljon be a gép. <em>(Hasznos
+    lehetne még a tükörfelcsapás utáni késleltetés, vagy az
+    automatikus expozíciósorozat is, sajnos a három hasznos funkcióból
+    egyszerre csak egyet lehet választani.)</em></li>
+</ul>
+
+<figure class="image" id="felszereles">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp2886_web.jpg" title="A felszerelés balra:
+        EQ-3, Skywatcher, Pentax K-x; jobbra: Manfrotto, Revue AC-5" ><img
+        src="imgp2886_th.jpg" /></a>
+<figcaption>A felszerelés</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p>A kontaktusok idejének kiszámolásához az <a href="https://play.google.com/store/apps/details?id=com.FlyteSoft.EclipseChaserMobile">Eclipse
+    Chaser Mobile</a> programot használtam, ami a mobiltelefon GPS
+    jele alapján számolja ki a kontaktusok idejét. Ez nem teljesen
+    egyezik meg a fenti google maps által számított idővel 2
+    másodperces eltérés van a két számítás között. A program minden hibája ellenére nagy segítség, főleg ha nem teljesen tudjuk előre a pontos észlelési helyet.</p>
+
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" href="imgp2885.jpg" title="Eclipse Chaser Mobile" ><img
+        src="imgp2885_th.jpg" /></a>
+<figcaption>Eclipse Chaser Mobile</figcaption>
+</figure>
+
+<h3 style="clear: both">Szűrőfólia</h3>
+
+<p></p>
+
+<p>A totalitást leszámítva a nap fényképezéséhez mindig szűrőfóliát kell
+használni. Én Baader Astrosolar fóliát használtam, amit a <a
+							     href="http://astrosolar.com/en/">gyártó oldaláról</a> vásároltam.
+  Ezúttal vettem OD (=Optical Density) 5.0-ás és OD 3.8-as fóliát is, végül a 3.8-asat használtam.
+  OD 3.8 azt jelenti, hogy a fény 10<sup>3.8</sup>-ad (=1/6309) része jut át a fólián. Kétféle méretű szűrőt gyártottam, nagyot a távcsőre, kicsit a 50mm-es objektívre.
+</p>
+
+<p>
+  Korábban elég egyszerű szűrőket gyártottam, most egy <a href="https://www.youtube.com/watch?v=Fx4h0sFsZ_s">youtube videó</a> alapján egy bonyolultabb módszerrel készítettem el a masszívabbnak tűnő szűrőket:  
+</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Régi fajta OD 5.0 kis szűrő"
+					     href="imgp7886_web.jpg"><img
+					     src="imgp7886_th.jpg"
+					     alt=""/></a>
+<figcaption>Régi fajta OD 5.0 kis szűrő</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Kis szűrő OD 3.8"
+					     href="imgp7882_web.jpg"><img
+					     src="imgp7882_th.jpg"
+					     alt=""/></a>
+<figcaption>Kis szűrő OD 3.8</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Nagy OD 3.8 szűrő"
+					     href="imgp7894_web.jpg"><img
+					     src="imgp7894_th.jpg"
+					     alt=""/></a>
+<figcaption>Nagy OD 3.8 szűrő</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Nagy OD 3.8 szűrő fedéllel"
+					     href="imgp7893_web.jpg"><img
+					     src="imgp7893_th.jpg"
+					     alt=""/></a>
+<figcaption>Nagy OD 3.8 szűrő fedéllel</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Nagy OD 3.8 szűrő hátulról"
+					     href="imgp7896_web.jpg"><img
+					     src="imgp7896_th.jpg"
+					     alt=""/></a>
+<figcaption>Nagy OD 3.8 szűrő hátulról</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Nagy OD 5.0 szűrő"
+					     href="imgp7891_web.jpg"><img
+					     src="imgp7891_th.jpg"
+					     alt=""/></a>
+<figcaption>Nagy OD 5.0 szűrő</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Nagy OD 5.0 szűrő fedéllel"
+					     href="imgp7890_web.jpg"><img
+					     src="imgp7890_th.jpg"
+					     alt=""/></a>
+<figcaption>Nagy OD 5.0 szűrő fedéllel</figcaption>
+</figure>
+
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Szűrő dobozban"
+					     href="imgp7880_web.jpg"><img
+					     src="imgp7880_th.jpg"
+					     alt=""/></a>
+<figcaption>Szűrő dobozban</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p></p>
+
+<p>Külön felhívnám a figyelmet a nagyon szép figyelmeztető matricákra! A szűrőket műanyag konyhai dobozokban lehet legegyszerűbben szállítani. </p>
+  
+</div>
+
+
+<div class='section' id='reszleges'>
+<h2>Részleges fázis</h2>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8025_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8025_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8041_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8041_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8070_level_web.jpg" title="ISO 200 1/640" ><img
+        src="imgp8070_level_th.jpg" /></a>
+<figcaption>ISO 200 1/640</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8091_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8091_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8107_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8107_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8118_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8118_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8241_level_web.jpg" title="ISO 200 1/1000" ><img
+        src="imgp8241_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1000</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8248_level_web.jpg" title="ISO 200 1/500" ><img
+        src="imgp8248_level_th.jpg" /></a>
+<figcaption>ISO 200 1/500</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8281_level_web.jpg" title="ISO 200 1/500" ><img
+        src="imgp8281_level_th.jpg" /></a>
+<figcaption>ISO 200 1/500</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8298_level_web.jpg" title="ISO 200 1/1000" ><img
+        src="imgp8298_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1000</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8353_level_web.jpg" title="ISO 200 1/1600" ><img
+        src="imgp8353_level_th.jpg" /></a>
+<figcaption>ISO 200 1/1600</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p></p>
+
+
+<p>Ezekre a képekre elég jól fel lehet készülni, hiszen a részleges fázisokat
+ugyanúgy fotózhatjuk, mint a teljes napot. Részleges napfogyatkozásnál pedig
+még alaposabban tesztelhetünk mindent.</p>
+
+<p>Mivel a részleges fázis elég sokáig tart, nagyon sok képet készíthetünk akár
+  eltérő expozíciós idővel is. Még a részleges fázis előtt készítettem pár képet,
+  és az alapján ISO 200, 1/1600 tűnt a legjobb választásnak, ezzel a beállítással
+  készült a legtöbb kép. Amikor felhősebb volt az ég, akkor hosszabb expozíciós időt
+  (egészen 1/200-at is) használtam. Utólag visszagondolva jó kérdés, vajon az
+  expozíciós időt volt-e érdemes változtatni, vagy inkább az ISO-t
+  kellett volna.</p>
+
+<p>A felhős idő miatt volt leginkább érdemes OD 3.8-as fóliát
+  használni OD 5.0-ás helyett.</p>
+
+<p>Sikerült odafigyelnem és végre nem ferdén feltennem a fényképezőgépet a távcsőre,
+    vagyis olyan szögben "harap bele" a Hold a képeken a Napba mint a valóságban.</p>
+<p>A nap igen gyorsan kimegy a látótérből, és újra kell
+    igazítani a fényképezőgépet. A csillagászati távcsővel ez nem túl nehéz, de az APS-C szűk
+    mérete miatt fontos volt úgy beállítani a gépet, hogy a nap
+    látszólagos mozgása a szenzor hosszában legyen.</p>
+
+<p>A képek színét leginkább az befolyásolja, hogy milyen szűrőt
+  használunk. A RAW feldolgozás során úgy állítottam be a
+  színhőmérsékletet, hogy a Nap képe fehér legyen ( <code>ufraw-batch
+  --temperature=5500 --green=1.3</code> ).
+</div>
+
+<div class='section' id='totalitas'>
+<h2>Totalitás, napkorona</h2>
+
+<p>A totalitás alatt a napkorona látható a képeken. Az APS-C szenzornál (ezzel a távcsővel)
+  szinte teljesen tele van a kép, így kevésbé látszik a napkorona mint a korábbi full frames (filmes) fényképeimen.</p>
+
+<p>A felszerelés ugyanaz mint a részleges fázisnál, de természetesen
+ilyenkor szűrőt nem kell használni. </p>
+
+<p>ISO 200-at használtam itt is az összes képnél.</p>
+
+<p>Korábbi tapasztalatok alapján expozíció-sorozatot (1/1600 másodperctől 1/15 másodpercig) készítettem.
+(Ennyi képből csak sikerül néhány) Az ennél is  hosszabb expozíciós időknél már kissé bemozdulna a nap.
+Ha viszonylag lassan is készítjük a képeket (2-3 másodpercenként), akkor is
+végzünk a sorozattal legfelebb egy perc alatt, ami bőven belefért a 2:24-es
+  totalitásba. Ennyi idő alatt még a nap sem "mászik ki" a képből, bár a sorozat közepén egyszer újrapozícionáltam a napot.
+  <em>A digitális gép minden kényelme mellett azért az is látszik, hogy a régi filmes gép (Pentax MZ-5) dedikált záridő
+    tárcsájával sokkal kényelmesebb és gyorsabb volt expozíció-sorozatot készíteni.</em>
+
+<p>Néhány nyers kép, szándékosan nem világosítva a képeket:</p>
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8158_web.jpg" title="ISO 200 1/500" ><img
+        src="imgp8158_th.jpg" /></a>
+<figcaption>ISO 200 1/500</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8156_web.jpg" title="ISO 200 1/320"><img
+         src="imgp8156_th.jpg" /></a>
+<figcaption>ISO 200 1/320</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8166_web.jpg" title="ISO 200 1/200"><img
+         src="imgp8166_th.jpg" /></a>
+<figcaption>ISO 200 1/200</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8171_web.jpg" title="ISO 200 1/80"><img
+         src="imgp8171_th.jpg" /></a>
+<figcaption>ISO 200 1/80</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8180_web.jpg" title="ISO 200 1/20"><img
+         src="imgp8180_th.jpg" /></a>
+<figcaption>ISO 200 1/20</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p>A napkorona még 1/20-nál sem égett be, vagyis hamarabb okozott volna gondot a Nap bemozdulása mint a beégés. Ez (meg persze az is, hogy a nagyon rövid időknél szinte teljesen fekete a kép) arra utal,
+  hogy érdemesebb lett volna ISO200 helyett jóval magasabb ISO értéket
+  használni.</p>
+
+<p>Az alulexponenálás előnye viszont, hogy a napkitörések ( a rózsaszín foltok ) jobban látszódnak. </p>
+
+
+<p>Eredetileg több képből
+  akartam <a href="http://www.astropix.com/HTML/J_DIGIT/E_COMP.HTM">Pellett
+    módszerével</a> egy képet összeállítani, de így, hogy még a
+  leghosszabb expozíciós időnél sem égett be a kép, ennek sok értelmét
+  nem láttam. Azért megpróbáltam digitálisan feljavítani a képet (
+  imagemagick segítségével ),
+  jobban kiemelve a napkoronát. Legjobban az 1/80-as kép sikerült, de
+  még a szinte teljesen fekete 1/500-ból is elég sok részletet elő
+  lehet csalni. Az 1/20-ason a legszebb a napkorona, de ott cserébe a
+  napkitörés már beég. A következő képpároknál a Nap középre van illesztve.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8171_cuta_web.jpg" title="ISO 200 1/80 nyers"><img
+        src="imgp8171_cuta_th.jpg" /></a>
+<figcaption>ISO 200 1/80<br /> nyers</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+        href="imgp8171_swa_web.jpg" title="ISO 200 1/80 digitálisan javítva" ><img
+        src="imgp8171_swa_th.jpg" /></a>
+<figcaption>ISO 200 1/80<br />digitálisan javítva</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8158_cuta_web.jpg" title="ISO 200 1/500 nyers"><img
+         src="imgp8158_cuta_th.jpg" /></a>
+<figcaption>ISO 200 1/500<br /> nyers</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8158_swa_web.jpg" title="ISO 200 1/500 digitálisan javítva"><img
+         src="imgp8158_swa_th.jpg" /></a>
+<figcaption>ISO 200 1/500<br />digitálisan javítva</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8180_cuta_web.jpg" title="ISO 200 1/20 nyers"><img
+         src="imgp8180_cuta_th.jpg" /></a>
+<figcaption>ISO 200 1/20<br /> nyers</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8180_swa_web.jpg" title="ISO 200 1/20 digitálisan javítva"><img
+         src="imgp8180_swa_th.jpg" /></a>
+<figcaption>ISO 200 1/20<br />digitálisan javítva</figcaption>
+</figure>
+
+
+</div>
+
+<div class='section' id='gyemant'>
+<h2>Baily-féle gyöngyfüzér</h2>
+
+<p></p>
+
+<p>Ahogy a hold egyre nagyobb részt takar ki a napból, egy idő után már csak
+a hold völgyein süt keresztül a nap, ilyenkor a látvány egy
+  pillanatonkénk változó gyöngyfüzérhez
+hasonlít.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="baily2_web.jpg" title="Baily 2. kontaktus"><img
+         class="noscale" src="baily2_th.jpg" /></a>
+<figcaption>Baily 2. kontaktus</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="baily3_web.jpg" title="Baily 3. kontaktus"><img
+         class="noscale" src="baily3_th.jpg" /></a>
+<figcaption>Baily 3. kontaktus</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p>A felszerelés ugyanaz mint a részleges fázisnál és a napkoronánál,
+  szűrőt nem kell használni. ISO 200 mellett eltérő expozíciós 
+  időt használtam a második és harmadik kontaktusnál, 1/1600-at
+  illetve 1/500-at. Sorozatot lőttem mindkét esetben. A második
+  kontaktus 20 képe 8 másodperc alatt készült, a harmadik kontaktus 17
+  képe 6 másodperc alatt. A fenti képeken a sorozatok természetesen
+  digitálisan vannak összeillesztve. </p>
+
+<p>Bár elvileg másodperc pontossággal kiszámítható a második és harmadik konkaktus ideje,
+  azért nem olyan egyszerű elkapni a pillanatot. Digitális gépen persze bátran lehet
+  jó sok képet készíteni, ha a nap nem mászik ki a képből, akkor nem lesz baj. </p>
+
+ <p>A két próbálkozási lehetőségnél különböző expozíciós időket próbáltam, az eredményeket elnézve nincs igazából nagy különbség.
+    Pontosabban a Baily-féle gyöngyfűzér nagyon hasonló, a különbség inkább az, hogy hosszabb vagy rövidebb ív látszik-e a képeken. Az eltérő expozíciós idő
+    akkor okoz gondot, ha egy képen akarjuk a két sorozatot
+    megjeleníteni, ez nem is sikerült. A másik ok ami miatt nem
+    érdemes a képeket összeilleszteni az az, hogy nem a középvonalon
+    voltunk, így a képeket forgatni is kellene.</p>
+
+<p>Ezeknél a képeknél látszik leginkább, hogy nem teljesen sikerült az
+  távcső élességét beállítani.</p>
+</div>
+
+
+<div class='section' id='video'>
+<h2>Videó</h2>
+
+<p>A fenti képekből megpróbáltam egy videót összeállítani:</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/xb_jozjqkLQ" allowfullscreen></iframe>
+
+<ul>
+<li>Bár közel 200 képet használtam fel, igazából sokkal több kellene
+  ahhoz, hogy hosszabb és kevésbé darabos legyen a videó.</li>
+<li>A részleges fázis képei között nem teljesen azonos az
+  időkülönbség, ez látszik a videón.</li>
+<li>Sokkal jobban fel van gyorsítva a részleges fázis mint pl. a
+  Baily-féle gyöngyfűzér, eszerűen azért, mert aránytalanul hosszabb a
+  valóságban a   részleges fázis. Hasonlóan túl hosszú a valóságban a
+  részleges fázis a totalitáshoz képest.</li>
+<li>Úgy tűnhet a videót nézve, hogy a részleges fázisban kisebb a
+  nagyítás mint a videó többi részén. Odafigyeltem a képkivágásra,
+  valójában az egymáshoz viszonyított arányok rendben vannak.</li>
+<li>Ennyi képet nem kézzel pozícionálgattam. Imagemagick segítségével
+  elég jól lehet automatikusan igazítani a képeket, igaz a felhős
+  képek kissé megzavarják a scriptemet.</li>
+</ul>
+
+</div>
+<p>
+  TODO: Külön a gyémántgyűrű??.
+</p>
+
+<div class='section' id='multiexpo'>
+<h2>Multiexpó részleges fázisokkal, totalitással</h2>
+
+<p></p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" href="multi_web.jpg"
+   title="multiexpo" >
+<img class="noscale" src="multi_th.jpg" />
+</a>
+<figcaption>Multiexpó - 12 percenként</figcaption>
+</figure>
+
+<div class="clear" ></div>
+
+<p>A képen egyszerre látható a részleges fázis több képe, és a totalitás. A
+kép alján szépen látható a folyamat, ahogy a hold egyre inkább
+eltakarja a napot, középen a totalitás, felül a folyamat, ahogy a nap
+újra egyre jobban látszik. A kép elkészítéséhez semmilyen digitális trükköt
+nem alkalmaztam, egyetlen negatívkockára exponáltam több képet.</p>
+
+<p></p>
+
+<h3>Felszerelés</h3>
+
+<p></p>
+
+<p>A kép elkészítéséhez egy olyan gép kell, amelyik képes egy kockára többet
+exponálni. Én egy manuális <a href="http://camera-wiki.org/wiki/Revue_AC_5">Revue AC-5</a> gépet használtam (ez a gép lényegében
+azonos a Chinon CP-7m géppel, csak más piacra gyártották). Egy alap 50mm-es
+objektív ( SMC PENTAX-A 50mm f2 ) volt a gépen.</p>
+
+<p>ISO 400-as film (Fuji Superia X-TRA 400), 22-es rekesz (az egyik kép 11-es rekesszel készült, mert felhősebb volt az ég).
+Az expozíciós idő a részleges fázisoknál 1/2000
+mp, a totalitásnál 1/4 mp. Az egyes expozíciók között 12 perc telt el. A
+gépnek az expozíciók között mozdulatlannak kell lennie, ezért természetesen
+állványt (Egy viszonylag könnyű Manfrottót) használtam, és figyeltem, hogy a kép elkészítése során (kb. 2.5 óra)
+senki ne rúgjon bele az állványba.</p>
+
+<p>A felszerelést mutató <a href="#felszereles">fenti képen</a> jobb oldalon látható az állvány
+  és a gép amivel ez a kép készült.</p>
+
+<h3>Felkészülés</h3>
+
+<p></p>
+
+<p>A részleges fázisok fotózására elég jól fel lehet készülni napfogyatkozás
+nélkül is. A szűrő tesztelésén kívül több dolgot is el kell eldönteni:</p>
+<ul>
+  <li><em><strong>Objektív</strong></em>: Felmerült, hogy az f2-es objektív helyett inkább f1.9-est,
+    vagy f1.4-est használok, de a tesztek alapján eléggé egyforma
+    eredményt adtak, szóval maradtam az f2-esnél. (<em>Miért is van
+    nekem 3 db 50mm-es PK objektívem?</em>) </li>
+  <li><em><strong>Rekesz</strong></em>: Az OD 3.8-as szűrővel már-már túl
+    sok fény jut a gépbe, így az objektív legszűkebb rekeszét, F22-t választottam.</li>
+  <li><strong><em>Részleges fázisok expozíciós ideje:</em></strong>.
+    A szinte túl sok fény miatt a gép lehető legrövidebb expozíciós idejét
+    1/2000-et választottam. Azonos idővel fényképeztem az összes képnél a részleges fázis alatt.</li>
+  <li><strong><em>Expozíciók gyakorisága:</em></strong> 2006-ben sikerült egy
+    <a href="../napfogy2006/#multiexpo">ilyen képet</a> készítenem 15 percenként fényképezve, így most kissé gyakrabban,
+    12 percenként fényképeztem. (Revue AC-5-nél ezt automatikusan be lehet állítani egy távkioldó
+    segítségével).</li>
+  <li><strong><em>Totalitás rekesze és expozíciós ideje:</em></strong>
+  Legutóbb F8-at és 1/2 másodpercet választottam, de kicsit bemozdult a kép. Így most F8-at és 1/4-et választottam. </li>
+</ul>
+
+<p></p>
+
+<p>Az expozíciók időzítésénél a totalitás idejéből kell kiindulni, onnan
+visszaszámolni a 12 perceket, hogy a képen a totalitás is látszódjék.</p>
+
+<h3>Megjegyzések</h3>
+
+<ul>
+
+<li>Az ehhez hasonló képeket gyakran úgy készítik el, hogy az ég világosabb
+legyen, és az előtérben valami szép épület vagy fa sziluettje látszódjon.
+  Most volt is egy szimpatikus fa a közelben, de egyszerűen nem fért a képre.
+  Nagyobb látószögű objektív kellene ahhoz, hogy egy ilyen plusz
+  dolog is a képre férjen, viszont ez egyben azt is jelentené, hogy pont a lényeg (a Nap) lenne kisebb.</li>
+
+<li>Igen gyakran az ilyen képeket digitálisan készítik több kép
+felhasználásával (1 kép a részleges fázisnak, 1 kép a totalitásnak, 1 kép az
+épületnek). Nyilván egyszerűbb a képet több képből összeilleszteni, de nekem
+  érdekesebbnek tűnt egyetlen kockára exponálni.</li>
+
+<li>A totalitás utáni első képen alig látszik a nap, mert felhős volt
+  éppen az exponáláskor az ég. Bár F22 helyett F11-et használtam, így
+  is nagyon halvány a nap. Utólag nyilvánvaló, hogy még tágabb rekesz
+  kellett volna.</li>
+
+<li>A totalitásnál az F8 1/4 másodperc sokkal jobb eredményt adott
+  mint F8 és 1/2. Talán F5.6 1/8 még jobb lenne.</li>
+
+<li>Hát nem igazán sikerült középre komponálni a képsorozatot.</li>
+</ul>
+</div>
+
+<div class='section' id='allvanyno'>
+<h2>Állvány nélkül</h2>
+
+Felmerülhet a kérdés, milyen képet lehet készíteni állvány nélkül
+( <em>hihetetlen, de vannak akik nem szeretnének a világ túlső felére több
+állványt is elvinni</em> ). A következő kép a totalitás alatt készült
+kézből egy kicsi Pentax Q-S1 géppel alap zoom objektívvel.
+
+<div class="clear"></div>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" href="imgp2923_web.jpg"
+   title="14.9mm (69mm-nek felel meg), ISO 1600, f4.5, 1/30" >
+<img src="imgp2923_th.jpg" />
+</a>
+<figcaption>14.9mm (69mm-nek felel meg)<br />ISO 1600, f4.5, 1/30</figcaption>
+</figure>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<p><a href="mailto:andras.salamon@melda.info">E-mail</a></p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Language" content="hu" />
+  <link href="styles/husevo.css" rel="stylesheet" type="text/css"></link> 
+  <title>Húsevő növények</title>
+</head>
+<body>
+
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+  <ul>
+  <li id='p1'><a href="bevezetes.html">1. Bevezetés </a></li>
+  <li id='p2'><a href="beszerzes.html">2. Beszerzés</a></li>
+  <li id='p3'><a href="novenyek.html">3. Növények</a></li>
+  <li id='p4'><a href="neveles.html">4. Nevelés</a></li>
+  <li id='p5'><a href="terrarium.html">5. Növényház</a></li>
+  <li id='p6'><a href="szaporitas.html">6. Szaporítás</a></li>
+  </ul>
+</div>
+
+<div class='footer'>
+<p><a href="mailto:andras.salamon@melda.info">Sala</a></p>
+<p><a href="http://validator.w3.org/check?uri=referer"><img
+style="border: none;" src="http://www.w3.org/Icons/valid-xhtml11"
+alt="Valid XHTML 1.1" height="31" width="88" /></a></p>
+<!-- BEGIN WebSTAT Activation Code -->
+<p><script type="text/javascript" src="http://hits.nextstat.com/cgi-bin/wsv2.cgi?39877"></script></p>
+<noscript>
+<p><a href="http://www.webstat.com">
+<img src="http://hits.nextstat.com/scripts/wsb.php?ac=39877" style="border:0" alt="Website Metrics and Site Statistics by NextSTAT" /></a></p>
+</noscript>
+<!-- END WebSTAT Activation Code -->
+</div>
+
+<div class="main">
+
+<h1>Bevezetés</h1>
+<p>Ezen az oldalon, húsevő növényekről fogok írni. Bár elég sok 
+húsevő növénnyel foglalkozó oldal van, ezek többsége idegen nyelvű.</p>
+
+<p>A magyar nyelvű oldalak többsége leíró jellegű, vagyis 
+általánosságban ír a húsevő növényekről. Én egy olyan oldalt próbálok
+készíteni, ami kezdőknek szól (nem az az első tanács, hogy építs egy
+üvegházat), és személyes hazai tapasztalatokon alapszik. Szeretnék a
+legfontosabb dolgokról fényképekkel illusztált leírásokat írni.</p>
+
+<p>Az oldalon az összes fényképet én készítettem, saját növényeimről.</p>
+
+<h2>Lelkesítés</h2>
+
+<p>Bár ezek különleges növények, Magyarországon is elég olcsón (2-3 muskátli ára)
+hozzájuk lehet jutni, és a legtöbb növényhez nem kell különleges körülmény. 
+Szóval bátran vegyetek ilyen növényeket!</p>
+
+<div class="imagecaption">
+<a href="kepek/157_28_144dpi.jpg"><img src="kepek/157_28_144dpi_th.png" alt="kancsóka"/></a>
+<br />
+<div class="caption"></div>
+</div>
+
+<div class="imagecaption">
+<a href="kepek/157_25_144dpi.png"><img src="kepek/157_25_144dpi_th.png" alt="kancsóka"/></a>
+<br />
+<div class="caption"></div>
+</div>
+
+</div>
+
+</body>
+</html>

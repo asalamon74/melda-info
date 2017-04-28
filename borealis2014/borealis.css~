@@ -1,0 +1,12 @@
+div.imagecaption {
+    margin: 1em;
+    text-align: right;
+}
+
+div.imagecaption img {
+    box-shadow: 5px 5px 5px #333333;
+}
+
+li {
+    clear: both;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+  />
+  <meta http-equiv="Content-Language" content="hu" />
+  <meta name="viewport" content="width=device-width;
+  initial-scale=1.0;" />
+  <title>Azáleás-völgy</title>
+  <link rel="Stylesheet" title="Default Stylesheet" href="azalea.css" />
+  <script type="text/javascript" src="/scripts/yoxview/yoxview-init.js"></script>
+  <meta name="keywords" content="azálea,Zalaegerszeg"/>
+  <script type="text/javascript">
+    $(document).ready(function(){
+    $(".yoxview").yoxview({ 
+      dataUrl: "http://picasaweb.google.com/100962535000040906452/AzLeSVLgy",
+      lang: "hu",
+      autoPlay: "true",
+      dataSourceOptions: {
+        thumbsize: '144c'
+      }
+    });
+   });
+  </script>
+</head>
+
+<body>
+
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+
+  <ul>
+  <li id='p1'><a href="#leiras">1. Leírás</a></li>
+  <li id='p2'><a href="#terkep">2. Térkép</a></li>
+  <li id='p3'><a href="#fenykepek">3. Fényképek</a></li>
+  </ul>
+</div>
+
+<div class='main'>
+
+<div class='section' id='leiras'>
+<h1>Azáleás-völgy</h1>
+
+<p>
+A Zalaegerszeg közvetlen közelében található völgy különleges mikroklímával rendelkezik. A korábban Róka-völgynek
+is nevezett helyre a 60-as évektől kezdve folyamatosan telepítettek be különleges növényeket. Bár jelentős az örökzöld
+gyűjtemény is, a völgy a 70-es években betelepített azáleák miatt vált híressé, innen kapta új nevét.
+</p>
+<p>
+A völgy április végén, május elején a legszebb, ekkor virágoznak az azáleák. Érdemes többször is visszatérni ide, 
+a különböző azáleák virágzási ideje kissé eltér, így folyamatosan változik a völgy. Illata csak a sárga virágú 
+(kaukázusi) azáleának van, ez az illat viszont az egész völgyet belengi.
+</p>
+<p>
+A völgy védett terület, az azáleákról ágat letörni, az azáleákat kiásni, esetleg 
+<a href="http://www.origo.hu/itthon/20051007bortonbuntetest.html">motorosan randalírozni</a> tilos. A beültetett bokrok
+felét sajnos már ellopták. Nem véletlen, hogy a gyakran találkozhatunk parkőrökkel a völgyben.
+</p>
+</div>
+
+<div class='section' id='terkep'>
+<h2>Megközelítés</h2>
+
+<div style="float: left; padding-right: 30px;">
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=102656137824775706513.00046c2755e5761bd3940&amp;ll=46.817074,16.823084&amp;spn=0.011469,0.011051&amp;t=h&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;msid=102656137824775706513.00046c2755e5761bd3940&amp;ll=46.817074,16.823084&amp;spn=0.011469,0.011051&amp;t=h&amp;source=embed" style="color:#0000FF;text-align:left">Azáleás-völgy</a> in a larger map</small>
+</div>
+<ul>
+<li>Kiindulási pont az Alsóerdei utca és a Köztársaság útja kereszteződése, ezt elég könnyű megtalálni.</li>
+<li>Az Alsóerdei úton a városból kifelé kell haladni. Az Erdőgyöngye étterem után kell jobbra lekanyarodni az útról, egy kis tábla jelzi is a helyet.</li>
+<li>Innen gyalog tovább, a házak után balra kell kanyarodni, majd szinte rögtön jobbra</li>
+<li>A sorompó után már csak az ösvényt kell követni</li>
+</ul>
+
+<p style="clear: both; "></p>
+</div>
+
+<div class='section' id='fenykepek'>
+<h2>Fényképek</h2>
+
+<p>Néhány fénykép kedvcsinálónak:</p>
+
+<div id="container">
+  <div class="clearfix thumbnails yoxview"></div>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<p><a href="mailto:andras.salamon@melda.info">Sala</a></p>
+<p><a href="http://validator.w3.org/check?uri=referer"><img
+style="border: none;" src="http://www.w3.org/Icons/valid-xhtml11"
+alt="Valid XHTML 1.1" height="31" width="88" /></a></p>
+<!-- BEGIN WebSTAT Activation Code -->
+
+<script type="text/javascript" language="JavaScript" src="http://hits.nextstat.com/cgi-bin/wsv2.cgi?39877"></script>
+<noscript>
+<a href="http://www.webstat.com">
+<img src="http://hits.nextstat.com/scripts/wsb.php?ac=39877" border="0" alt="Website Metrics and Site Statistics by NextSTAT" /></a>
+</noscript>
+<!-- END WebSTAT Activation Code -->
+</div>
+
+</body>
+</html>

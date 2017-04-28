@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Black+Ops+One" />
+  
+  <!-- Add jQuery library -->
+<!--  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="mezszam_functions.js"></script> 
+
+  
+  <title>ZTE Mezszám</title>
+  <link rel="Stylesheet" title="Default Stylesheet"  href="mezszam.css" />
+  <meta name="keywords"  content="ZTE"
+  />
+  <meta name="description" content="" />
+
+  <script>
+    var playersName = [];
+    var playersData;
+    function makeTableHTML(myArray) {
+      var result='';
+      for(var i=0; i<myArray.length; i++) {
+       result += "<li class='player'>";
+       result += "<a href='player.html?pid="+myArray[i][0]+"'>"+myArray[i][1]+"</a>";
+       result += "</li>"; 
+     }
+      return result;
+    }
+    $(document).ready(function() {
+//    $.get('players.csv', function(data) {
+//      var playersData = parseCSV(data);
+      $.when(playersDataLoaded).done(function() {
+ //     playersData = playersData.sort(function(a,b) {
+//        return a[1] > b[1] ? 1 : 0;
+//      });
+      for( var i=0; i<playersData.length; ++i ) {
+        playersName.push( { label: playersData[i][1], value: playersData[i][1], id: playersData[i][0] } );
+      }
+    var html = makeTableHTML(playersData);					  
+    $('#zteplayers').empty();
+    $('#zteplayers').html(html);    
+    });        
+    });
+  </script>  
+  
+</head>
+
+<body>
+  <header>
+  </header>
+  <div class="main">
+    <ul class="multi" id="zteplayers">
+    </ul>
+  </div>
+  <footer>
+  </footer>
+</body>
+</html>

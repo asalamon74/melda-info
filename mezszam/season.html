@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Black+Ops+One" />
+  
+  <!-- Add jQuery library -->
+<!--  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>  
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>  
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="mezszam_functions.js"></script> 
+
+  <title>ZTE Mezszám</title>
+  <link rel="Stylesheet" title="Default Stylesheet"  href="mezszam.css" />
+  <meta name="keywords"  content="ZTE"
+  />
+  <meta name="description" content="" />
+
+  <script>
+    var shirtsData;
+    function makeTableHTML(myArray) {
+      var result;
+      for(var i=0; i<myArray.length; i++) {
+        result += "<tr>";
+        result += "<td><a href='shirt.html?num="+myArray[i][2]+"'>"+myArray[i][2]+"</a></td><td><a href='player.html?pid="+myArray[i][0]+"'>"+arrayValue(playersData,myArray[i][0])+"</a></td>";
+        result += "</tr>";
+      }
+      return result;
+    }
+    $(document).ready(function() {
+    var sid = getParameterByName('sid');
+    var d3 = $.get('shirts.csv', function(data) {
+      shirtsData = flattenShirts(parseCSV(data));
+    });
+    $.when(seasonsDataLoaded, playersDataLoaded, d3).done(function() {
+      if( sid == '' ) {
+        var seasonsDataSort = seasonsData.sort(function(a,b) {
+          return b[0]-a[0]
+        });
+        sid=seasonsData[0][0];
+      }
+      $('#zteseason').empty();
+      $('#zteseason').html("<a title='Előző szezon' class='novislink' href='season.html?sid="+(sid-1)+"'>&lt;</a>" + arrayValue(seasonsData,sid) + "<a title='Következő szezon' class='novislink' href='season.html?sid="+(Number(sid)+1)+"'> &gt;</a>");
+      var s = shirtFilter(shirtsData, sid, 1, 2);
+      var html = makeTableHTML( s );
+      $('#playertable').empty();
+      $('#playertable').html(html);
+    });	
+			     
+    });
+  </script>  
+  
+</head>
+
+<body>
+  <header>
+  </header>  
+  <div class="main">
+  <h1 id="zteseason"></h1>
+  <table class="zte">
+    <thead>
+      <tr><td>Mezszám</td><td>Játékos</td></tr>
+    </thead>    
+    <tbody id="playertable">
+    </tbody>
+  </table>
+  </div>
+  <footer>
+  </footer>
+
+</body>
+</html>

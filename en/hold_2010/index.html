@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+  
+  <title>Moon photography</title>
+  <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
+  <meta name="keywords"
+  content="photography, Moon, Linux, enfuse, align_image_stack,
+	   ImageMagick, gimp" />
+  <meta name="description" content="Moon photography" />  
+<meta name="viewport" content="width=device-width;
+  initial-scale=1.0;" />
+<style type="text/css">
+td.header { background-color: #cccccc; }
+td.thumb6 img { width: 100%; border: none; }
+img { border: none; }
+</style>
+  <script>
+  $(function(){
+  $("footer").load("../footer.html"); 
+  });
+  </script>
+</head>
+
+<body>
+<div class='map en'>
+  <h2>TOC</h2>
+  <ul>
+  <li id='p1'><a href="#bevezetes">Intro</a></li>
+  <li id='p2'><a href="#tablazat">Table</a></li>
+  <li id='p3'><a href="#tablazat_korrekcio">Exposure correction</a></li>
+  <li id='p4'><a href="#zajszures">Noise reduction</a></li>
+  <li id='p5'><a href="#vegeredmeny">Final</a></li>
+  </ul>
+</div>
+
+<div class='main'>
+
+<h1>Moon photography</h1>
+
+<div class='section' id='bevezetes'>
+
+<p>I've collect my Moon photography experiences. The pictures were taken in November 2010. </p>
+
+<p>My equipment:</p>
+<ul>
+<li>Telescope: <a href='http://www.skywatcher.com/product/bk-mak102-eq2/'>SkyWatcher Maksutov-Cassegrain 102/1300</a></li>
+<li>EQ-3 mount and tripod (no motor drive)</li>
+<li>Pentax K-x camera</li>
+<li>Linux softwares: <a href='http://ufraw.sourceforge.net/'>ufraw</a>, <a href='http://www.imagemagick.org/'>ImageMagick</a>,
+<a href='http://wiki.panotools.org/Align_image_stack'>align_image_stack</a>, <a href='http://wiki.panotools.org/Enfuse'>enfuse</a>
+( <a href='http://hugin.sourceforge.net/'>Hugin</a> ), <a href='http://www.gimp.org/'>gimp</a>.</li>
+</ul>
+
+</div>
+<div class='section' id='tablazat'>
+<h2>Exposure table</h2>
+
+<p>The aperture of the telescope is fixed (1300/102 so approximately 12.7) so I can change the exposure time and the ISO value.
+  ( I might also use an <a href="http://en.wikipedia.org/wiki/Neutral_density_filter">ND-filter</a> but it would be quite useless here )
+</p>
+
+<p>During the test I was using ISO values between ISO 200 and ISO 6400 and exposure time between 1/15s and 1/6000s. The next table shows the images
+  (you can click on the images to enlarge them). (The fastest shutter speed of my camera is 1/6000s.)</p>
+
+<table><tr><td class='header'>&nbsp;</td>
+<td class='header'>ISO 0200</td>
+<td class='header'>ISO 0400</td>
+<td class='header'>ISO 0800</td>
+<td class='header'>ISO 1600</td>
+<td class='header'>ISO 3200</td>
+<td class='header'>ISO 6400</td>
+</tr>
+<tr>
+<td class='header'>1/0015</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0015_web.jpg' title='moon 0200 0015'><img src='hold_original_0200_0015_thumb.jpg' alt='moon 0200 0015'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0015_web.jpg' title='moon 0400 0015'><img src='hold_original_0400_0015_thumb.jpg' alt='moon 0400 0015'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0015_web.jpg' title='moon 0800 0015'><img src='hold_original_0800_0015_thumb.jpg' alt='moon 0800 0015'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0015_web.jpg' title='moon 1600 0015'><img src='hold_original_1600_0015_thumb.jpg' alt='moon 1600 0015'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0015_web.jpg' title='moon 3200 0015'><img src='hold_original_3200_0015_thumb.jpg' alt='moon 3200 0015'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0015_web.jpg' title='moon 6400 0015'><img src='hold_original_6400_0015_thumb.jpg' alt='moon 6400 0015'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0030</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0030_web.jpg' title='moon 0200 0030'><img src='hold_original_0200_0030_thumb.jpg' alt='moon 0200 0030'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0030_web.jpg' title='moon 0400 0030'><img src='hold_original_0400_0030_thumb.jpg' alt='moon 0400 0030'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0030_web.jpg' title='moon 0800 0030'><img src='hold_original_0800_0030_thumb.jpg' alt='moon 0800 0030'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0030_web.jpg' title='moon 1600 0030'><img src='hold_original_1600_0030_thumb.jpg' alt='moon 1600 0030'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0030_web.jpg' title='moon 3200 0030'><img src='hold_original_3200_0030_thumb.jpg' alt='moon 3200 0030'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0030_web.jpg' title='moon 6400 0030'><img src='hold_original_6400_0030_thumb.jpg' alt='moon 6400 0030'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0060</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0060_web.jpg' title='moon 0200 0060'><img src='hold_original_0200_0060_thumb.jpg' alt='moon 0200 0060'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0060_web.jpg' title='moon 0400 0060'><img src='hold_original_0400_0060_thumb.jpg' alt='moon 0400 0060'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0060_web.jpg' title='moon 0800 0060'><img src='hold_original_0800_0060_thumb.jpg' alt='moon 0800 0060'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0060_web.jpg' title='moon 1600 0060'><img src='hold_original_1600_0060_thumb.jpg' alt='moon 1600 0060'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0060_web.jpg' title='moon 3200 0060'><img src='hold_original_3200_0060_thumb.jpg' alt='moon 3200 0060'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0060_web.jpg' title='moon 6400 0060'><img src='hold_original_6400_0060_thumb.jpg' alt='moon 6400 0060'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0125</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0125_web.jpg' title='moon 0200 0125'><img src='hold_original_0200_0125_thumb.jpg' alt='moon 0200 0125'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0125_web.jpg' title='moon 0400 0125'><img src='hold_original_0400_0125_thumb.jpg' alt='moon 0400 0125'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0125_web.jpg' title='moon 0800 0125'><img src='hold_original_0800_0125_thumb.jpg' alt='moon 0800 0125'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0125_web.jpg' title='moon 1600 0125'><img src='hold_original_1600_0125_thumb.jpg' alt='moon 1600 0125'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0125_web.jpg' title='moon 3200 0125'><img src='hold_original_3200_0125_thumb.jpg' alt='moon 3200 0125'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0125_web.jpg' title='moon 6400 0125'><img src='hold_original_6400_0125_thumb.jpg' alt='moon 6400 0125'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0250</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0250_web.jpg' title='moon 0200 0250'><img src='hold_original_0200_0250_thumb.jpg' alt='moon 0200 0250'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0250_web.jpg' title='moon 0400 0250'><img src='hold_original_0400_0250_thumb.jpg' alt='moon 0400 0250'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0250_web.jpg' title='moon 0800 0250'><img src='hold_original_0800_0250_thumb.jpg' alt='moon 0800 0250'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0250_web.jpg' title='moon 1600 0250'><img src='hold_original_1600_0250_thumb.jpg' alt='moon 1600 0250'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0250_web.jpg' title='moon 3200 0250'><img src='hold_original_3200_0250_thumb.jpg' alt='moon 3200 0250'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0250_web.jpg' title='moon 6400 0250'><img src='hold_original_6400_0250_thumb.jpg' alt='moon 6400 0250'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0500</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0500_web.jpg' title='moon 0200 0500'><img src='hold_original_0200_0500_thumb.jpg' alt='moon 0200 0500'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0500_web.jpg' title='moon 0400 0500'><img src='hold_original_0400_0500_thumb.jpg' alt='moon 0400 0500'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0500_web.jpg' title='moon 0800 0500'><img src='hold_original_0800_0500_thumb.jpg' alt='moon 0800 0500'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0500_web.jpg' title='moon 1600 0500'><img src='hold_original_1600_0500_thumb.jpg' alt='moon 1600 0500'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0500_web.jpg' title='moon 3200 0500'><img src='hold_original_3200_0500_thumb.jpg' alt='moon 3200 0500'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0500_web.jpg' title='moon 6400 0500'><img src='hold_original_6400_0500_thumb.jpg' alt='moon 6400 0500'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/1000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_1000_web.jpg' title='moon 0200 1000'><img src='hold_original_0200_1000_thumb.jpg' alt='moon 0200 1000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_1000_web.jpg' title='moon 0400 1000'><img src='hold_original_0400_1000_thumb.jpg' alt='moon 0400 1000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_1000_web.jpg' title='moon 0800 1000'><img src='hold_original_0800_1000_thumb.jpg' alt='moon 0800 1000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_1000_web.jpg' title='moon 1600 1000'><img src='hold_original_1600_1000_thumb.jpg' alt='moon 1600 1000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_1000_web.jpg' title='moon 3200 1000'><img src='hold_original_3200_1000_thumb.jpg' alt='moon 3200 1000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_1000_web.jpg' title='moon 6400 1000'><img src='hold_original_6400_1000_thumb.jpg' alt='moon 6400 1000'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/2000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_2000_web.jpg' title='moon 0200 2000'><img src='hold_original_0200_2000_thumb.jpg' alt='moon 0200 2000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_2000_web.jpg' title='moon 0400 2000'><img src='hold_original_0400_2000_thumb.jpg' alt='moon 0400 2000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_2000_web.jpg' title='moon 0800 2000'><img src='hold_original_0800_2000_thumb.jpg' alt='moon 0800 2000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_2000_web.jpg' title='moon 1600 2000'><img src='hold_original_1600_2000_thumb.jpg' alt='moon 1600 2000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_2000_web.jpg' title='moon 3200 2000'><img src='hold_original_3200_2000_thumb.jpg' alt='moon 3200 2000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_2000_web.jpg' title='moon 6400 2000'><img src='hold_original_6400_2000_thumb.jpg' alt='moon 6400 2000'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/4000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_4000_web.jpg' title='moon 0200 4000'><img src='hold_original_0200_4000_thumb.jpg' alt='moon 0200 4000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_4000_web.jpg' title='moon 0400 4000'><img src='hold_original_0400_4000_thumb.jpg' alt='moon 0400 4000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_4000_web.jpg' title='moon 0800 4000'><img src='hold_original_0800_4000_thumb.jpg' alt='moon 0800 4000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_4000_web.jpg' title='moon 1600 4000'><img src='hold_original_1600_4000_thumb.jpg' alt='moon 1600 4000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_4000_web.jpg' title='moon 3200 4000'><img src='hold_original_3200_4000_thumb.jpg' alt='moon 3200 4000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_4000_web.jpg' title='moon 6400 4000'><img src='hold_original_6400_4000_thumb.jpg' alt='moon 6400 4000'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/6000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_6000_web.jpg' title='moon 0200 6000'><img src='hold_original_0200_6000_thumb.jpg' alt='moon 0200 6000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_6000_web.jpg' title='moon 0400 6000'><img src='hold_original_0400_6000_thumb.jpg' alt='moon 0400 6000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_6000_web.jpg' title='moon 0800 6000'><img src='hold_original_0800_6000_thumb.jpg' alt='moon 0800 6000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_6000_web.jpg' title='moon 1600 6000'><img src='hold_original_1600_6000_thumb.jpg' alt='moon 1600 6000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_6000_web.jpg' title='moon 3200 6000'><img src='hold_original_3200_6000_thumb.jpg' alt='moon 3200 6000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_6000_web.jpg' title='moon 6400 6000'><img src='hold_original_6400_6000_thumb.jpg' alt='moon 6400 6000'/></a></td>
+</tr>
+</table>
+
+<p>The top-right corner contains the overexposed pictures, the botton-left corner the underexposed ones.
+  The diagonal from the top left corner shows the correctly exposed images. </p>
+</div>
+
+<div class="section" id="tablazat_korrekcio">
+<h2>Exposure correction</h2>
+
+<p>First I correct the underexposed and overexposed images. using the <code>--exposure</code> switch of ufraw-batch. The base image is the  ISO 3200 - 1/250s image.
+  If the image is very overexposured I only make it 2 stops darker.</p>
+
+<p>The next table shows the corrected images. The exposure correction value (EV) can be seen in the tooltip.</p>
+
+<table><tr><td class='header'>&nbsp;</td>
+<td class='header'>ISO 0200</td>
+<td class='header'>ISO 0400</td>
+<td class='header'>ISO 0800</td>
+<td class='header'>ISO 1600</td>
+<td class='header'>ISO 3200</td>
+<td class='header'>ISO 6400</td>
+</tr>
+<tr>
+<td class='header'>1/0015</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0015_exp_web.jpg' title='ISO 0200 speed 1/0015s EV: -.05889368905356851426'><img src='hold_original_0200_0015_exp_thumb.jpg' alt='moon 0200 0015' title='EV: -.05889368905356851426'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0015_exp_web.jpg' title='ISO 0400 speed 1/0015s EV: -1.05889368905356851429'><img src='hold_original_0400_0015_exp_thumb.jpg' alt='moon 0400 0015' title='EV: -1.05889368905356851429'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0015_exp_web.jpg' title='ISO 0800 speed 1/0015s EV: -2'><img src='hold_original_0800_0015_exp_thumb.jpg' alt='moon 0800 0015' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0015_exp_web.jpg' title='ISO 1600 speed 1/0015s EV: -2'><img src='hold_original_1600_0015_exp_thumb.jpg' alt='moon 1600 0015' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0015_exp_web.jpg' title='ISO 3200 speed 1/0015s EV: -2'><img src='hold_original_3200_0015_exp_thumb.jpg' alt='moon 3200 0015' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0015_exp_web.jpg' title='ISO 6400 speed 1/0015s EV: -2'><img src='hold_original_6400_0015_exp_thumb.jpg' alt='moon 6400 0015' title='EV: -2'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0030</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0030_exp_web.jpg' title='ISO 0200 speed 1/0030s EV: .94110631094643148571'><img src='hold_original_0200_0030_exp_thumb.jpg' alt='moon 0200 0030' title='EV: .94110631094643148571'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0030_exp_web.jpg' title='ISO 0400 speed 1/0030s EV: -.05889368905356851426'><img src='hold_original_0400_0030_exp_thumb.jpg' alt='moon 0400 0030' title='EV: -.05889368905356851426'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0030_exp_web.jpg' title='ISO 0800 speed 1/0030s EV: -1.05889368905356851429'><img src='hold_original_0800_0030_exp_thumb.jpg' alt='moon 0800 0030' title='EV: -1.05889368905356851429'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0030_exp_web.jpg' title='ISO 1600 speed 1/0030s EV: -2'><img src='hold_original_1600_0030_exp_thumb.jpg' alt='moon 1600 0030' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0030_exp_web.jpg' title='ISO 3200 speed 1/0030s EV: -2'><img src='hold_original_3200_0030_exp_thumb.jpg' alt='moon 3200 0030' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0030_exp_web.jpg' title='ISO 6400 speed 1/0030s EV: -2'><img src='hold_original_6400_0030_exp_thumb.jpg' alt='moon 6400 0030' title='EV: -2'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0060</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0060_exp_web.jpg' title='ISO 0200 speed 1/0060s EV: 1.94110631094643148576'><img src='hold_original_0200_0060_exp_thumb.jpg' alt='moon 0200 0060' title='EV: 1.94110631094643148576'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0060_exp_web.jpg' title='ISO 0400 speed 1/0060s EV: .94110631094643148571'><img src='hold_original_0400_0060_exp_thumb.jpg' alt='moon 0400 0060' title='EV: .94110631094643148571'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0060_exp_web.jpg' title='ISO 0800 speed 1/0060s EV: -.05889368905356851426'><img src='hold_original_0800_0060_exp_thumb.jpg' alt='moon 0800 0060' title='EV: -.05889368905356851426'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0060_exp_web.jpg' title='ISO 1600 speed 1/0060s EV: -1.05889368905356851429'><img src='hold_original_1600_0060_exp_thumb.jpg' alt='moon 1600 0060' title='EV: -1.05889368905356851429'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0060_exp_web.jpg' title='ISO 3200 speed 1/0060s EV: -2'><img src='hold_original_3200_0060_exp_thumb.jpg' alt='moon 3200 0060' title='EV: -2'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0060_exp_web.jpg' title='ISO 6400 speed 1/0060s EV: -2'><img src='hold_original_6400_0060_exp_thumb.jpg' alt='moon 6400 0060' title='EV: -2'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0125</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0125_exp_web.jpg' title='ISO 0200 speed 1/0125s EV: 3.00000000000000000002'><img src='hold_original_0200_0125_exp_thumb.jpg' alt='moon 0200 0125' title='EV: 3.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0125_exp_web.jpg' title='ISO 0400 speed 1/0125s EV: 2.00000000000000000001'><img src='hold_original_0400_0125_exp_thumb.jpg' alt='moon 0400 0125' title='EV: 2.00000000000000000001'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0125_exp_web.jpg' title='ISO 0800 speed 1/0125s EV: 1.00000000000000000000'><img src='hold_original_0800_0125_exp_thumb.jpg' alt='moon 0800 0125' title='EV: 1.00000000000000000000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0125_exp_web.jpg' title='ISO 1600 speed 1/0125s EV: 0'><img src='hold_original_1600_0125_exp_thumb.jpg' alt='moon 1600 0125' title='EV: 0'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0125_exp_web.jpg' title='ISO 3200 speed 1/0125s EV: -1.00000000000000000000'><img src='hold_original_3200_0125_exp_thumb.jpg' alt='moon 3200 0125' title='EV: -1.00000000000000000000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0125_exp_web.jpg' title='ISO 6400 speed 1/0125s EV: -2'><img src='hold_original_6400_0125_exp_thumb.jpg' alt='moon 6400 0125' title='EV: -2'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0250</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0250_exp_web.jpg' title='ISO 0200 speed 1/0250s EV: 4.00000000000000000002'><img src='hold_original_0200_0250_exp_thumb.jpg' alt='moon 0200 0250' title='EV: 4.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0250_exp_web.jpg' title='ISO 0400 speed 1/0250s EV: 3.00000000000000000002'><img src='hold_original_0400_0250_exp_thumb.jpg' alt='moon 0400 0250' title='EV: 3.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0250_exp_web.jpg' title='ISO 0800 speed 1/0250s EV: 2.00000000000000000001'><img src='hold_original_0800_0250_exp_thumb.jpg' alt='moon 0800 0250' title='EV: 2.00000000000000000001'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0250_exp_web.jpg' title='ISO 1600 speed 1/0250s EV: 1.00000000000000000000'><img src='hold_original_1600_0250_exp_thumb.jpg' alt='moon 1600 0250' title='EV: 1.00000000000000000000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0250_exp_web.jpg' title='ISO 3200 speed 1/0250s EV: 0'><img src='hold_original_3200_0250_exp_thumb.jpg' alt='moon 3200 0250' title='EV: 0'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0250_exp_web.jpg' title='ISO 6400 speed 1/0250s EV: -1.00000000000000000000'><img src='hold_original_6400_0250_exp_thumb.jpg' alt='moon 6400 0250' title='EV: -1.00000000000000000000'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/0500</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_0500_exp_web.jpg' title='ISO 0200 speed 1/0500s EV: 5.00000000000000000004'><img src='hold_original_0200_0500_exp_thumb.jpg' alt='moon 0200 0500' title='EV: 5.00000000000000000004'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_0500_exp_web.jpg' title='ISO 0400 speed 1/0500s EV: 4.00000000000000000002'><img src='hold_original_0400_0500_exp_thumb.jpg' alt='moon 0400 0500' title='EV: 4.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_0500_exp_web.jpg' title='ISO 0800 speed 1/0500s EV: 3.00000000000000000002'><img src='hold_original_0800_0500_exp_thumb.jpg' alt='moon 0800 0500' title='EV: 3.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_0500_exp_web.jpg' title='ISO 1600 speed 1/0500s EV: 2.00000000000000000001'><img src='hold_original_1600_0500_exp_thumb.jpg' alt='moon 1600 0500' title='EV: 2.00000000000000000001'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_0500_exp_web.jpg' title='ISO 3200 speed 1/0500s EV: 1.00000000000000000000'><img src='hold_original_3200_0500_exp_thumb.jpg' alt='moon 3200 0500' title='EV: 1.00000000000000000000'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_0500_exp_web.jpg' title='ISO 6400 speed 1/0500s EV: 0'><img src='hold_original_6400_0500_exp_thumb.jpg' alt='moon 6400 0500' title='EV: 0'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/1000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_1000_exp_web.jpg' title='ISO 0200 speed 1/1000s EV: 6.00000000000000000005'><img src='hold_original_0200_1000_exp_thumb.jpg' alt='moon 0200 1000' title='EV: 6.00000000000000000005'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_1000_exp_web.jpg' title='ISO 0400 speed 1/1000s EV: 5.00000000000000000004'><img src='hold_original_0400_1000_exp_thumb.jpg' alt='moon 0400 1000' title='EV: 5.00000000000000000004'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_1000_exp_web.jpg' title='ISO 0800 speed 1/1000s EV: 4.00000000000000000002'><img src='hold_original_0800_1000_exp_thumb.jpg' alt='moon 0800 1000' title='EV: 4.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_1000_exp_web.jpg' title='ISO 1600 speed 1/1000s EV: 3.00000000000000000002'><img src='hold_original_1600_1000_exp_thumb.jpg' alt='moon 1600 1000' title='EV: 3.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_1000_exp_web.jpg' title='ISO 3200 speed 1/1000s EV: 2.00000000000000000001'><img src='hold_original_3200_1000_exp_thumb.jpg' alt='moon 3200 1000' title='EV: 2.00000000000000000001'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_1000_exp_web.jpg' title='ISO 6400 speed 1/1000s EV: 1.00000000000000000000'><img src='hold_original_6400_1000_exp_thumb.jpg' alt='moon 6400 1000' title='EV: 1.00000000000000000000'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/2000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_2000_exp_web.jpg' title='ISO 0200 speed 1/2000s EV: 7.00000000000000000007'><img src='hold_original_0200_2000_exp_thumb.jpg' alt='moon 0200 2000' title='EV: 7.00000000000000000007'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_2000_exp_web.jpg' title='ISO 0400 speed 1/2000s EV: 6.00000000000000000005'><img src='hold_original_0400_2000_exp_thumb.jpg' alt='moon 0400 2000' title='EV: 6.00000000000000000005'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_2000_exp_web.jpg' title='ISO 0800 speed 1/2000s EV: 5.00000000000000000004'><img src='hold_original_0800_2000_exp_thumb.jpg' alt='moon 0800 2000' title='EV: 5.00000000000000000004'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_2000_exp_web.jpg' title='ISO 1600 speed 1/2000s EV: 4.00000000000000000002'><img src='hold_original_1600_2000_exp_thumb.jpg' alt='moon 1600 2000' title='EV: 4.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_2000_exp_web.jpg' title='ISO 3200 speed 1/2000s EV: 3.00000000000000000002'><img src='hold_original_3200_2000_exp_thumb.jpg' alt='moon 3200 2000' title='EV: 3.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_2000_exp_web.jpg' title='ISO 6400 speed 1/2000s EV: 2.00000000000000000001'><img src='hold_original_6400_2000_exp_thumb.jpg' alt='moon 6400 2000' title='EV: 2.00000000000000000001'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/4000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_4000_exp_web.jpg' title='ISO 0200 speed 1/4000s EV: 8.00000000000000000007'><img src='hold_original_0200_4000_exp_thumb.jpg' alt='moon 0200 4000' title='EV: 8.00000000000000000007'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_4000_exp_web.jpg' title='ISO 0400 speed 1/4000s EV: 7.00000000000000000007'><img src='hold_original_0400_4000_exp_thumb.jpg' alt='moon 0400 4000' title='EV: 7.00000000000000000007'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_4000_exp_web.jpg' title='ISO 0800 speed 1/4000s EV: 6.00000000000000000005'><img src='hold_original_0800_4000_exp_thumb.jpg' alt='moon 0800 4000' title='EV: 6.00000000000000000005'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_4000_exp_web.jpg' title='ISO 1600 speed 1/4000s EV: 5.00000000000000000004'><img src='hold_original_1600_4000_exp_thumb.jpg' alt='moon 1600 4000' title='EV: 5.00000000000000000004'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_4000_exp_web.jpg' title='ISO 3200 speed 1/4000s EV: 4.00000000000000000002'><img src='hold_original_3200_4000_exp_thumb.jpg' alt='moon 3200 4000' title='EV: 4.00000000000000000002'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_4000_exp_web.jpg' title='ISO 6400 speed 1/4000s EV: 3.00000000000000000002'><img src='hold_original_6400_4000_exp_thumb.jpg' alt='moon 6400 4000' title='EV: 3.00000000000000000002'/></a></td>
+</tr>
+<tr>
+<td class='header'>1/6000</td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0200_6000_exp_web.jpg' title='ISO 0200 speed 1/6000s EV: 8.58496250072115618522'><img src='hold_original_0200_6000_exp_thumb.jpg' alt='moon 0200 6000' title='EV: 8.58496250072115618522'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0400_6000_exp_web.jpg' title='ISO 0400 speed 1/6000s EV: 7.58496250072115618244'><img src='hold_original_0400_6000_exp_thumb.jpg' alt='moon 0400 6000' title='EV: 7.58496250072115618244'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_0800_6000_exp_web.jpg' title='ISO 0800 speed 1/6000s EV: 6.58496250072115618244'><img src='hold_original_0800_6000_exp_thumb.jpg' alt='moon 0800 6000' title='EV: 6.58496250072115618244'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_1600_6000_exp_web.jpg' title='ISO 1600 speed 1/6000s EV: 5.58496250072115618173'><img src='hold_original_1600_6000_exp_thumb.jpg' alt='moon 1600 6000' title='EV: 5.58496250072115618173'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_3200_6000_exp_web.jpg' title='ISO 3200 speed 1/6000s EV: 4.58496250072115618172'><img src='hold_original_3200_6000_exp_thumb.jpg' alt='moon 3200 6000' title='EV: 4.58496250072115618172'/></a></td>
+<td class='thumb6'><a class="fancybox" data-fancybox-group="tgallery" href='hold_original_6400_6000_exp_web.jpg' title='ISO 6400 speed 1/6000s EV: 3.58496250072115618153'><img src='hold_original_6400_6000_exp_thumb.jpg' alt='moon 6400 6000' title='EV: 3.58496250072115618153'/></a></td>
+</tr>
+</table>
+
+<p>To summarize the results (some of them was expected, some of them was a bit surprise):</p>
+
+<ul>
+<li>The overexposed pictures are useless.</li>
+<li>The underexposed pictures after exposure correction contains much more information than I expected after checking the first table.</li>
+<li>The highly underexposed images are very noisy.</li>
+<li>There is an ugly magenta color if the exposure time is very low.
+  A very dark pixel has low red, green, blue values, the red and blue values are greater than
+  zero, the green value is zero. If I apply exposure correction the green value will remain zero,
+  red and blue values will increase, the result is magenta. Maybe the sensitivity of the sensor is the cause.</li>
+<li>If you know the real reason for the magenta shift, please send me an <a href='mailto:andras.salamon@melda.info'>e-mail</a>.</li>
+<li>If the exposure time is too long then the apparent motion of the Moon will blur the image.</li>
+</ul>
+
+</div>
+
+<div class='section' id='zajszures'>
+<h2>Noise reduction</h2>
+
+<p>I've tried to reduce noise by using image stacking (as suggested <a href="http://photo.stackexchange.com/q/2818/507">here</a>).
+  If we align the images and average the pixels the noise of the merged image should be lower than the noise of the original images.</p>
+
+<p>I've created 20 images using the same settings. I was testing the following 5 settings:</p>
+
+<ul>
+<li>ISO 0200 - 1/250s</li>
+<li>ISO 1600 - 1/500s</li>
+<li>ISO 1600 - 1/2000s</li>
+<li>ISO 6400 - 1/2000s</li>
+<li>ISO 6400 - 1/6000s</li>
+</ul>
+
+<p><em>Testing all the 60 settings (60*20=1200 images) was not really an option.</em><p>
+
+<p><em><a href='zaj_process.sh'>Here</a> you can download the noise reduction script.</em></p>
+
+<p>The last 3 settings are not optimal (because of the magenta shift) but I've only realized it after taking all the images.</p>
+
+<table>
+<tr>
+<td class='header'>Parameter</td>
+<td class='header'>Original</td>
+<td class='header'>Average</td>
+<td class='header'>Original 100% zoom</td>
+<td class='header'>Average 100% zoom</td>
+</tr>
+<tr>
+<td class='header'>ISO 0200 - 1/0250</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_0200_0250_sample_web.jpg" title="ISO 200 1/250 original">
+<img class="shadow noscale" alt="ISO 200 1/250 original" src="result_hold_0200_0250_sample_thumb.jpg" />
+</a>  
+</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_0200_0250_web.jpg" title="ISO 200 1/250 átlag">
+<img class="shadow noscale" alt="ISO 200 1/250 átlag" src="result_hold_0200_0250_thumb.jpg" />
+</a>  
+</td>
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_0200_0250_sample_crop.jpg" title="ISO 200 1/250 original 100% zoom">
+<img class="shadow noscale" alt="ISO 200 1/250 original 100% zoom" src="result_hold_0200_0250_sample_crop.jpg" />
+</a>  
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_0200_0250_crop.jpg" title="ISO 200 1/250 átlag 100% zoom">
+<img class="shadow noscale" alt="ISO 200 1/250 átlag 100% zoom" src="result_hold_0200_0250_crop.jpg" />
+</a>  
+</tr>
+
+<tr>
+<td class='header'>ISO 1600 - 1/0500</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_0500_sample_web.jpg" title="ISO 1600 1/500 original">
+<img class="shadow noscale" alt="ISO 1600 1/500 original" src="result_hold_1600_0500_sample_thumb.jpg" />
+</a>  
+</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_0500_web.jpg" title="ISO 1600 1/500 átlag">
+<img class="shadow noscale" alt="ISO 1600 1/500 átlag" src="result_hold_1600_0500_thumb.jpg" />
+</a>  
+</td>
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_0500_sample_crop.jpg" title="ISO 1600 1/500 original 100% zoom">
+<img class="shadow noscale" alt="ISO 1600 1/500 original 100% zoom" src="result_hold_1600_0500_sample_crop.jpg" />
+</a>  
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_0500_crop.jpg" title="ISO 1600 1/500 átlag 100% zoom">
+<img class="shadow noscale" alt="ISO 1600 1/500 átlag 100% zoom" src="result_hold_1600_0500_crop.jpg" />
+</a>  
+</tr>
+
+<tr>
+<td class='header'>ISO 1600 - 1/2000</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_2000_sample_web.jpg" title="ISO 1600 1/2000 original">
+<img class="shadow noscale" alt="ISO 1600 1/2000 original" src="result_hold_1600_2000_sample_thumb.jpg" />
+</a>  
+</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_2000_web.jpg" title="ISO 1600 1/2000 átlag">
+<img class="shadow noscale" alt="ISO 1600 1/2000 átlag" src="result_hold_1600_2000_thumb.jpg" />
+</a>  
+</td>
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_2000_sample_crop.jpg" title="ISO 1600 1/2000 original 100% zoom">
+<img class="shadow noscale" alt="ISO 1600 1/2000 original 100% zoom" src="result_hold_1600_2000_sample_crop.jpg" />
+</a>  
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_1600_2000_crop.jpg" title="ISO 1600 1/2000 átlag 100% zoom">
+<img class="shadow noscale" alt="ISO 1600 1/2000 átlag 100% zoom" src="result_hold_1600_2000_crop.jpg" />
+</a>  
+</tr>
+
+<tr>
+<td class='header'>ISO 6400 - 1/2000</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_2000_sample_web.jpg" title="ISO 6400 1/2000 original">
+<img class="shadow noscale" alt="ISO 6400 1/2000 original" src="result_hold_6400_2000_sample_thumb.jpg" />
+</a>  
+</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_2000_web.jpg" title="ISO 6400 1/2000 átlag">
+<img class="shadow noscale" alt="ISO 6400 1/2000 átlag" src="result_hold_6400_2000_thumb.jpg" />
+</a>  
+</td>
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_2000_sample_crop.jpg" title="ISO 6400 1/2000 original 100% zoom">
+<img class="shadow noscale" alt="ISO 6400 1/2000 original 100% zoom" src="result_hold_6400_2000_sample_crop.jpg" />
+</a>  
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_2000_crop.jpg" title="ISO 6400 1/2000 átlag 100% zoom">
+<img class="shadow noscale" alt="ISO 6400 1/2000 átlag 100% zoom" src="result_hold_6400_2000_crop.jpg" />
+</a>  
+</tr>
+
+<tr>
+<td class='header'>ISO 6400 - 1/6000</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_6000_sample_web.jpg" title="ISO 6400 1/6000 original">
+<img class="shadow noscale" alt="ISO 6400 1/6000 original" src="result_hold_6400_6000_sample_thumb.jpg" />
+</a>  
+</td>
+<td>
+<a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_6000_web.jpg" title="ISO 6400 1/6000 átlag">
+<img class="shadow noscale" alt="ISO 6400 1/6000 átlag" src="result_hold_6400_6000_thumb.jpg" />
+</a>  
+</td>
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_6000_sample_crop.jpg" title="ISO 6400 1/6000 original 100% zoom">
+<img class="shadow noscale" alt="ISO 6400 1/6000 original 100% zoom" src="result_hold_6400_6000_sample_crop.jpg" />
+</a>  
+<td>
+  <a class="fancybox" data-fancybox-group="gallery" href="result_hold_6400_6000_crop.jpg" title="ISO 6400 1/6000 átlag 100% zoom">
+<img class="shadow noscale" alt="ISO 6400 1/6000 átlag 100% zoom" src="result_hold_6400_6000_crop.jpg" />
+</a>  
+</tr>
+</table>
+
+<p>The first column shows the original image. The second is the average of 20 images. The third and the fourth columns show 100% zoom to make it easier to compare the images.</p>
+
+<p>To calculate the average I aligned the images using <a href='http://wiki.panotools.org/Align_image_stack'>align_image_stack</a>
+  and merged them using <a href='http://wiki.panotools.org/Enfuse'>enfuse</a>.</p>
+
+<ul>
+<li>Stacking does not remove the magenta shift.</li>
+<li>Stacking really reduces the noise, the effect is more pronounced if the original images are very noisy.</li>
+<li>It might be good to stack more than 20 images if the ISO is 6400.</li>
+</ul>
+</div>
+
+<div class='section' id='vegeredmeny'>
+<h2>Final steps</h2>
+
+<p>I've checked the previous five images and chose the ISO 1600 1/500s. A few final modifications
+  (using <a href='http://www.gimp.org/'>gimp</a>):</p>
+
+<ul>
+<li>Monochrome conversion<br />
+<img src='gimp_1.jpg' alt='gimp desaturate' /></li>
+<li>Increasing contrast<br />
+<img src='gimp_2.jpg' alt='gimp levels' /></li>
+<li>Crop</li>
+</ul>
+
+<p><em>I don't really remember the reason for choosing gimp for the final steps. Imagemagick would have been a more logical choice.</em></p>
+
+<p>The final result can be seen here:<br />
+
+<a href='hold.png'><img src='hold_thumb.png' alt='final' /></a></p>
+</div>
+
+</div>
+
+<footer>
+</footer>
+</body>
+</html>

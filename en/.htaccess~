@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(.*)\.css$ /$1.css [NC,L]
+RewriteRule ^bg_paper.gif$ /bg_paper.gif [NC,L]
+RewriteRule ^(.*)\.jpg$ /$1.jpg [NC,L]

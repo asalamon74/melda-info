@@ -1,0 +1,54 @@
+.dir_topleft {
+	border: 0px;
+	background-image: url(images/dir_topleft.png);
+	background-repeat: no-repeat;
+    width: 26px;
+	height: 26px;
+}
+.dir_top {
+	border: 0px;
+	background-image: url(images/dir_top.png);
+	background-repeat: repeat-x;
+	height: 26px;
+}
+.dir_topright {
+	border: 0px;
+	background-image: url(images/dir_topright.png);
+	background-repeat: no-repeat;
+    width: 26px;
+	height: 26px;
+}
+.dir_left {
+	border: 0px;
+	background-image: url(images/dir_left.png);
+	background-repeat: repeat-y;
+    width: 26px;
+}
+
+.dir_right {
+	border: 0px;
+	background-image: url(images/dir_right.png);
+        background-repeat: repeat-y;
+        width: 26px;
+}
+
+.dir_bottomleft {
+	border: 0px;
+	background-image: url(images/dir_bottomleft.png);
+	background-repeat: no-repeat;
+    width: 26px;
+	height: 26px;
+}
+.dir_bottom {
+	border: 0px;
+	background-image: url(images/dir_bottom.png);
+	background-repeat: repeat-x;
+	height: 26px;
+}
+.dir_bottomright {
+	border: 0px;
+	background-image: url(images/dir_bottomright.png);
+	background-repeat: no-repeat;
+    width: 26px;
+	height: 26px;
+}

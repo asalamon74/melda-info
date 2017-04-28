@@ -1,0 +1,16 @@
+@import "../navi.css";
+
+h2, h3 {
+clear: both;
+}
+
+div.imagecaption img {
+/* Simple border shadow without any additional images */
+padding:3px;
+border:solid;
+border-color: #ddddff #aaaacc #aaaacc #ddddff;
+border-width: 1px 2px 2px 1px;
+/*background-color: #3E5A96;*/
+background-color: #aaaaaa;
+margin: 1px;
+}

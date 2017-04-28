@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width;initial-scale=1.0;" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/scripts/imagemapster/jquery.imagemapster.js?v=1.2.10"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+
+
+  <title>Sheaffer Snorkel</title>
+  <link rel="Stylesheet" title="Default Stylesheet"
+  href="snorkel.css" />
+
+  <meta name="keywords"
+	content="sheaffer, snorkel, töltőtoll, javítás, fountain pen, repair" />
+  <meta name="description" content="Sheaffer Snorkel töltőtoll szerelése" />
+
+  <script>
+  $(function(){
+  $("footer").load("../footer.html"); 
+  });
+  </script>
+
+</head>
+
+<body>
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+  <ul>
+  <li id='p1'><a href="#bevezetes">1. Bevezetés </a></li>
+  <li id='p2'><a href="#szetszedes">2. Szétszedés</a></li>
+  <li id='p3'><a href="#alkatreszek">3. Alkatrészek</a></li>
+  <li id='p4'><a href="#tartalycsere">4. Tartálycsere</a></li>
+  <li id='p5'><a href="#osszeszereles">5. Összeszerelés</a></li>
+  <li id='p6'><a href="#teszt">6. Kipróbálás</a></li>
+  </ul>
+</div>
+
+<div id="topbar">
+    <p>&nbsp;
+    <a style="float:right;" href="../en/sheaffer_snorkel/" class="flag-icon flag-icon-gb-eng"></a>
+    <span style="float:right; margin-right: 0.5em;" class="flag-icon flag-icon-hu"></span>
+    </p>
+</div>
+
+<div class='main'>
+
+<div class='section' id='bevezetes'>
+
+<h1>Sheaffer Snorkel javítás</h1>
+
+<p>Egy 1950-es években gyártott Sheaffer Snorkel Admiral szerelését mutatom be az
+oldalon. A tollat <a href="http://www.andys-pens.co.uk/">Andy's
+  Pens</a>-től vettem, ahol igen nagy számban lehet régi töltőtollakat
+beszerezni. A képekre klikkelve nagyobb méretben is megnézhetőek.</p>
+
+<p>A toll igen érdekes töltési mechanizmussal rendelkezik, melyről bővebben 
+  a régi töltőtollak változatos feltöltési
+  módjait bemutató <a href="http://www.vintagepens.com/filling_instructions_Snorkel.shtml">oldalon</a>, 
+  vagy <a href="http://www.richardspens.com/?page=ref/anatomy/snorkel.htm">Richard Bindernél</a> 
+  olvashatunk.</p>
+
+<p>Ennél a töltőtollnál kb. 20-30 évente cserélni kell a tintatartályt, 
+mert elöregszik a gumit és ereszti a tintát.</p>
+
+<p>A szereléshez a következőkre volt szükségem:</p>
+<ul>
+<li><strong>gumi tintatartály</strong>
+<p>Ehhez a tollhoz 14-es méretű (ha minden igaz, ez a külső átmérő 1/64
+  hüvelyben) egyenes gumi tintatartály kell. Kapható szilikon
+  tintatartály is hozzá, abból állítólag 14.5-ös kell.</p></li>
+<li><strong>O-gyűrű</strong>
+<p>Itt nem igazán találtam pontos
+  méretleírást, általában csak annyit írnak, hogy a Snorkelhez a
+  "kicsi" O-gyűrű kell (a PFM-hez pedig a "nagy").</p></li>
+<li><strong>ragasztó</strong>
+<p>Mindenhol más ragasztót ajánlanak (van aki szerint a körömlakk is jó), 
+én óvatosságból ugyanott vettem a ragasztót (<em>sac cement</em>) ahol
+  a gumitartályt.</p>
+
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Ragasztó" href="sac_cement_web.jpg"><img height="200" src="sac_cement_th.jpg"
+					     alt="ragasztó"/></a>
+<br />
+<figcaption>Ragasztó</figcaption>
+</figure>
+
+</li>
+<li style="clear: both"><strong>szilikonzsír</strong>
+<p>Nem feltétlenül kötelező, de erősen ajánlott. Szilikonzsír beszerzésénél
+  arra kell odafigyelni, hogy 100%-os
+  szilikonzsír legyen, ellenkező esetben tönkreteheti a toll
+  alkatrészeit.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Szilikonzsír"
+					     href="silicon_grease_web.jpg"><img height="150" src="silicon_grease_th.jpg"
+					     alt="szilikonzsír"/></a>
+<br />
+<figcaption>Szilikonzsír</figcaption>
+</figure>
+
+</li>
+</ul>
+
+<p style="clear: both">A szükséges eszközöket több helyen (mondjuk magyar helyet nem
+  ismerek) is be lehet szerezni, ebay-en
+  elég gyakran Snorkeljavító-egységcsomagokat is lehet venni.</p>
+
+</div>
+
+<div class="section" id="figyelmeztetes">
+
+<h2>Figyelmeztetés</h2>
+
+<p>Mielőtt nekiállnál szétszerelni a töltőtollad:</p>
+
+<ul>
+<li>Az, hogy a töltőtollam szereléséről írok, nem jelenti, hogy értek
+  is hozzá, szóval csak saját felelősségedre állj neki.</li>
+<li>Egy viszonylag olcsó tollnál érdemes kísérletezni, de egy drágább
+  tollat inkább szakértőre bíznék.</li>
+</ul>
+</div>
+
+<div class="section" id="szetszedes">
+
+<h2>Szétszedés</h2>
+
+<h3>A tolltest szétszedése</h3>
+
+<p>Először is szét kell szedni a tollat, hogy hozzáférjünk az alkatrészekhez. A szétszedés
+első lépesi egyszerűek, <em>elvileg</em> elég a tollat a megfelelő helyeken szétcsavarozni. 
+A szétszedett alkatrészeket alaposan tisztítsuk meg.</p>
+
+<p>Kezdjük a hátsó kupak elcsavarásával, ezzel kiengedjuk a csövet (<em>Snorkel</em>) 
+  amiről a toll a nevét kapta. Továbbiakban légzőcsőként hivatkozok rá (<em>ha valakinek van jobb magyar szava
+  erre, kérem írja meg!</em>) Ezután középen szét lehet csavarni a tollat. A toll
+  hegyét tartalmazó részen még egy menet található, óvatosan fogjuk
+  meg a tollat miközben szétcsavarjuk. A toll testében egy rugó
+  található, elképzelhető, hogy ezt ki kell piszkálnunk.</p>
+
+<h4>Ha nem jön szét</h4>
+
+<p>Könnyen lehet, hogy hiába erőlködünk, a tollat nem sikerül szétszednünk. Egyrészt 
+előfordulhat, hogy a lukas tintatartály miatt a tinta (vagy a toll tisztításához használt
+víz) összekente a toll belsejét, és a száradt tinta illetve a rozsda miatt nem jön szét 
+a toll. Másrészt az is előfordulhat, hogy a tollat az előző összeszereléskor összeragasztották.
+Mivel a Sheafer Snorkel tollnak légmentesen kell záródnia ez elég gyakori.</p>
+
+<p>A következő módszereket használhatjuk:</p>
+<ul>
+<li><strong>Nyers erő.</strong><br />
+<p>A legegyszerűbb (nem feltétlenül a legjobb) módszer. Érdemes persze figyelni arra, nehogy 
+tönretegyük a tollat. Létezik <a href="http://www.google.hu/images?q=fountain+pen+section+pliers">célszerszám</a> 
+is a toll szétszedéséhez, de ilyent nem próbáltam.</p></li>
+<li><strong>Áztatás</strong><br />
+<p>Ha a tollat a kosz és a rozsda tartja össze, akkor az alkatrészek áztatásával (szobahőmérsekletű vizet használtam)
+egyre jobban feloldhatjuk a koszt, és könnyebbé tehetjük a szerelést.</p></li>
+<li><strong>Magas hőmérséklet</strong><br />
+<p>Elég rémisztő, de sokan (köztük Frank Dubiel 
+<a href="https://www.amazon.com/Fountain-Complete-Guide-Repair-Restoration/dp/B000GX2MMK">nagyszerű könyvében</a>) azt javasolják, hogy nyílt
+láng segítségével melegítsük fel a tollat. Különösen akkor lehet erre szükség, ha a toll össze van ragasztva, hiszen
+a magas hőmérséklettől megolvad a ragasztó és szétszedhetjük a tollat. Bár a tollat persze tönkre lehet tenni
+ha nyílt lángot használunk, a profik szerint még mindig több az esélyünk, mintha túlzottan nagy erővel próbáljuk feszegetni.
+</p><p>A szétszerelésnek ebben a fázisában nem használtam nyílt lángot.</p></li>
+</ul>
+
+<p>Könnyen előfordulhat, hogy a rozsdás, elakadt rugó miatt nagyon nehezen jön
+  szét a toll. Ha sikerül szétszednünk, akkor tisztítsuk meg a rugót.</p> 
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+					     href="spring_web.jpg"
+					     title="Rozsdás rugó"><img height="150" src="spring_th.jpg"
+					     alt="rugó"/></a>
+<figcaption>Rozsdás rugó</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title="Tisztább
+					     rugó" href="spring_clean_web.jpg"><img height="150" src="spring_clean_th.jpg"
+					     alt="rugó"/></a>
+<figcaption>Tisztább rugó</figcaption>
+</figure>
+
+<h3>A tintatartály</h3>
+
+<p>Míg eddig a pontig akár eljuthatunk anélkül, hogy különösebben durván bánnnák
+a tollal, a tintartályt tartalmazó rész szétszedésekor szinte biztos, hogy valami 
+draszikusabb módszerre lesz szükségünk</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+					     href="sac_protector_full_web.jpg"
+					     title="A tintatartály védő fém tartály"><img height="100" src="sac_protector_full_th.jpg"
+					     alt="A tintatartály védő fém tartály"/></a>
+<figcaption>A tintatartály védő fém tartály</figcaption>
+</figure>
+
+<p style="clear: both">A fém tartály elején található dugót kell eltávolítanunk úgy, hogy a légzőcső ne sérüljön meg. 
+Mivel a régi tintatartályt akarjuk lecserélni, az nem gond, 
+ha a tintartály megsemmisül a szétszerelés közben.</p>
+
+<p>A fém tartály végén van egy akkora luk, amin egy pálcával
+  (hurkapálca, fültisztító pálca) benyúlhatunk és megpróbálhatjuk
+kipiszkálni a dugót (ahogy <a href="http://www.youtube.com/watch?v=0cCzvAp5g2o">itt</a> is láthatjuk). 
+Sajnos ezzel a módszerrel pont a légzőcső végét érjük el, így én nem mertem túl nagy erővel piszkálni.</p>
+
+<p>Nyílt láng segítségével forrósítottam fel a fém tartályt, egészen addig, amig a dugót rögzítő 
+ragasztó (és a régi tintatartály is) meg nem olvadt, így már ki tudtam piszkálni a dugót. Bár az olvadt 
+ragasztó elég ijesztő látvány (és igen büdös), a tisztítás után kiderült, hogy a fontos alkatrészeknek nem 
+ártott a meleg.</p>
+
+<p>Bár minden lépésnél fontos az alkatrészek megtisztítása, itt különösen az. A légzőcsőn lévő nyílás 
+nagyon kicsi, könnyen eldugulhat, a fémtartály belsejének a tisztítása pedig azért fontos, mert a régi gumitartály
+maradványai megakadályozhatják, hogy az új tartály rendesen beférjen
+  (tisztítás közben kiderült, hogy a régi tartály felolvasztása nem a
+  legszerencsésebb megoldás, nagyon macerás volt a fémhenger tisztítása).</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Dugó" href="sac_guard_web.jpg"><img src="sac_guard_th.jpg"
+				   alt="dugó" /></a>
+<figcaption>Dugó</figcaption>
+</figure>
+
+
+<h3>Hátsó kupak</h3>
+
+<p>Bár nem igazán látszik, de a hátsó kupakot egy csavar rögzíti, így
+  a toll hátsó részének szétszedéséhez egy hosszú csavarhúzóra lesz
+  szükségünk. A tolltestbe benyúlva tudjuk a csavart
+  meglazítani, ezután a hátsó kupak már lejön, majd eltávolíthatjuk a
+  tolltestből a fém hengert is.</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Csavar a helyén" href="screw_in_tube_web.jpg"><img height="200" src="screw_in_tube_th.jpg"
+				   alt="csavar" /></a>
+<figcaption>Csavar a helyén</figcaption>
+</figure>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Csavar a helyén" href="screw_in_tube_2_web.jpg"><img height="200" src="screw_in_tube_2_th.jpg"
+				   alt="csavar" /></a>
+<figcaption>Csavar a helyén</figcaption>
+</figure>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Csavar kiszerelve" href="blind_cap_screw_web.jpg"><img height="200" src="blind_cap_screw_th.jpg"
+				   alt="csavar" /></a>
+<figcaption class="caption">Csavar kiszerelve</figcaption>
+</figure>
+
+</div>
+
+<div class="section" id="alkatreszek">
+<h2>Alkatrészek</h2>
+
+<p>A következő képen a szétszedett toll alkatrészei látszanak. Nem
+  feltétlenül kell a tollat ennyire szétszedni, pl. ha nincs gond a
+  tömítésekkel, akkor ne piszkáljuk őket.</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="A toll alkatrészei"
+				   href="sheaffer_snorkel_parts_web.jpg"><img style="height:
+				   250px" src="sheaffer_snorkel_parts_th.jpg"
+				   alt="alkatrész" /></a>
+<figcaption>A toll alkatrészei</figcaption>
+</figure>
+
+</div>
+
+<div class="section" id="tartalycsere">
+<h2>Tintatartály cseréje</h2>
+
+<p>Ha a dugó eltávolítása során a légzőcsövet is kihúztuk, akkor
+  először ezt kell visszatennünk. Olyan mélyen kell visszatenni, hogy
+  a cső legvége éppen kilógjon a dugóból.</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Légzőcső" href="snorkel_1_web.jpg"><img height="200" src="snorkel_1_th.jpg"
+				   alt="légzőcső" /></a>
+<figcaption>Légzőcső</figcaption>
+</figure>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Légzőcső a helyén" href="sac_guard_snorkel_web.jpg"><img height="200" src="sac_guard_snorkel_th.jpg"
+				   alt="légzőcső" /></a>
+<figcaption>Légzőcső a helyén</figcaption>
+</figure>
+
+<p style="clear: both">Ha alaposabban megnézzük a csövet, látszik,
+  hogy a hegy irányába mutató végén
+  vékony hasítékokat találunk. Úgy kell visszatennünk a csövet, hogy a
+  szerelés legvégén a hosszanti hasadék mutasson a hegy irányába.</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Légzőcső helyes pozíciója" href="snorkel_position_web.jpg"><img height="200" src="snorkel_position_th.jpg"
+				   alt="légzőcső" /></a>
+<figcaption>Légzőcső helyes pozíciója</figcaption>
+</figure>
+
+
+<h3>A gumitartály</h3>
+
+<p>A gumitartály (mivel többféle töltőtollhoz is használható) nincs
+  méretrevágva. A tartályt a helyére próbálva megállapíthatjuk milyen
+  hosszra van szükségünk, és egy egyszerű ollóval megfelelő méretre
+  vághatjuk. Ha pár milliméterrel rövidebb az nem gond (kicsit kevesebb 
+  tinta fér bele), hosszabb viszont ne legyen.</p>
+
+<p>A tartályt először ragasztó nélkül próbáltam a dugó szájára
+  illeszteni, majd miután ez sikerült odaragasztottam. A következő
+  képeken látszik, hogy kissé szűknek tűnik a tartály szája. Száradás után 
+  mindenképpen próbáljuk ki, hogy légmentesen záródik-e!</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Tartály a helyére ragasztva" href="sac_cemented_web.jpg"><img height="200" src="sac_cemented_th.jpg"
+				   alt="tartály" /></a>
+<figcaption>Tartály a helyére ragasztva</figcaption>
+</figure>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Légzőcső, dugó, tartály" href="snorkel_sac_cemented_web.jpg"><img height="200" src="snorkel_sac_cemented_th.jpg"
+				   alt="tartály" /></a>
+<figcaption>Légzőcső, dugó, tartály</figcaption>
+</figure>
+
+<h3>Fém tartály</h3>
+
+<p>Következő lépésként a fém védőtartályba kell behelyeznünk a
+  gumitartályt. Ugyanazt a ragasztót használtam a rögzítéshez, mint az
+  előző lépésben. Elegendő a védődugót beragasztani, a gumitartályt
+  nem kell (nem szabad) ragasztóval bekenni. Itt is ki kell próbálni száradás 
+  után, hogy légmentesen záródik-e (nekem elsőre nem záródott).</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Fém tartály" href="sac_protector_web.jpg"><img height="200" src="sac_protector_th.jpg"
+				   alt="fém tartály" /></a>
+<figcaption>Fém tartály</figcaption>
+</figure>
+
+</div>
+
+<div class="section" id="osszeszereles">
+<h2>Összeszerelés</h2>
+
+<p>Mivel fontos a toll légmentes záródása, ezért a rossz tömítéseket is
+  érdemes kicserélni. A toll hegyénél illetve hátsó kupakjánál
+  található tömítések cseréje elég egyszerű, feltéve, hogy van pont
+  megfelelő méretű cserénk. Mivel ezekkel nem volt gond, most nem
+  cseréltem ki a tömítéseket, csak
+  szilikonzsírral kentem be őket alaposan mielőtt visszaszereltem őket.</p>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery"
+				   title="Tömítés" href="gasket_web.jpg"><img height="150" src="gasket_th.jpg"
+				   alt="tömítés" /></a>
+<figcaption>Tömítés</figcaption>
+</figure>
+
+<figure class="image">
+<a  class="fancybox" data-fancybox-group="gallery" title="O-gyűrű" href="o_ring_web.jpg"><img height="150" src="o_ring_th.jpg"
+				   alt="O-gyűrű" /></a>
+<figcaption>O-gyűrű</figcaption>
+</figure>
+
+<p style="clear: both">A tintatartály mellett a másik idővel elromló alkatrész, a toll
+  hátsó testében található O-gyűrű. Akkor működik jól a gyűrű. ha a
+  tolltest és a benne lévő fémalkatrész elég szorosan jár, vagyis nem
+  lötyögnek.</p> 
+
+<p>A régi gyűrűt
+  könnyen el lehet távolítani egy csipesszel, ezután szilikonzsírral
+  bekenve az új gyűrű a régi helyére kell bejuttatni. Ez nekem igen
+  nehezen ment, de előbb-utóbb sikerült a helyére juttatni</p>
+
+<p>A toll összeszerelésekor minden mozgó alkatrészt bekentem szilikonzsírral, és a 
+tolltest meneteit is ezzel kentem be, hogy légmentesen záródjon. Valószínűleg
+még biztosabb eredményt adna ha ragasztóval kentem volna be a meneteket, de szerettem
+volna ha a toll könnyen szétszedhető marad.</p>
+
+</div>
+
+<div class="section" id="teszt">
+<h2>Kipróbálás</h2>
+
+<p>Ha minden jól ment, akkor megtölthetjük a tollat tintával <em>A videó még a szerelés előtt készült.</em>:</p>
+
+<iframe title="YouTube video player" width="640" height="375"
+        src="http://www.youtube.com/embed/w7SaP37uX5o" style="border: none"></iframe>
+
+</div>
+
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>

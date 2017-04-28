@@ -1,0 +1,72 @@
+h1 {
+  text-align: left;
+}
+
+h2 {
+  text-align:left;
+}
+
+code.block {
+display: block;
+background-color: #888888;
+padding: 5px;
+border: solid #555555 1px;
+}
+
+ul.twocol {
+float: left;
+width: 90%;
+}
+
+ul.twocol li {
+float: left;
+width: 40%;
+padding-right: 5%;
+}
+
+div.clear {
+clear: both;
+}
+
+img.borderless {
+border: none;
+}
+
+/*
+div.librarything {
+float: right;
+width: 15%;
+}
+*/
+
+p.comment {
+display: block;
+font-style: italic;
+clear: both;
+background-color: #eeeeee;
+padding: 5px;
+border: solid #aaaaaa 1px;
+}
+
+div.imagecaption img {
+border: none;
+/*height: 150px;*/
+
+/* Simple border shadow without any additional images */
+/*padding:8px;
+border:solid;
+border-color: #ddddff #aaaacc #aaaacc #ddddff;
+border-width: 1px 2px 2px 1px;
+background-color: #3E5A96;
+margin: 1px;*/
+}
+
+div.imagecaption {
+float: left;
+}
+
+div.caption {
+font-style: italic;
+font-size: 80%;
+margin-bottom: 5px;
+}

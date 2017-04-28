@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+
+body {
+    background-image: url('lblue062.gif'); 
+}
+
+.page-contents {
+  margin-left: 5%;
+}
+
+a:link {text-decoration: none; color: black}
+a:visited {text-decoration: none; color: black}
+a:active {text-decoration: none; color:black}
+a:hover {text-decoration: underline; color: blue;}
+
+table.zte {
+border: solid black 1px;
+padding: 5px;
+border-collapse: collapse;
+}
+
+table.zte td {
+padding: 3px;
+border: solid black 1px;
+}

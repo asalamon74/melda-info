@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+  
+  <title>Focus Stacking</title>
+  <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
+  <meta name="keywords"
+	content="focus stacking, dof, Linux" />
+
+  <meta name="description" content="Focus Stacking Linux" />
+  
+<script type="text/javascript">
+function changeImg(cImg,ref) {
+document.images[cImg].src = ref
+}
+ $(function(){
+  $("footer").load("../footer.html"); 
+  });
+</script>
+</head>
+
+<body>
+<div class='map en'>
+  <h2>Links</h2>
+  <ul>
+  <li id='p1'><a href="#bevezetes">Intro </a></li>
+  <li id='p2'><a href="#technika">Technique</a></li>
+  <li id='p3'><a href="#illesztes">Alignment</a></li>
+  <li id='p4'><a href="#egyesites">Fusion</a></li>
+  <li id='p5'><a href="#youtube">Video</a></li>
+  </ul>
+</div>
+
+
+  <div id="topbar">
+    <p>&nbsp;
+    <span style="float:right" class="flag-icon flag-icon-gb-eng"></span>
+    <a style="float:right; margin-right: 0.5em;" href="../../focus_stacking/" class="flag-icon flag-icon-hu"></a>
+    </p>
+  </div>
+
+<div class='main'>
+
+<div class='section' id='bevezetes'>
+
+<h1>Focus Stacking</h1>
+
+<p>Dept of field is usually too shallow if we take macro photos.</p>
+
+<p>In this example I'll take a photo of my extension tube. It is not too spectacular
+  but quite on topic. The distances of the pins from the sensor are not equal.Even if I use the smallest aperture (F22 for my lens) only the middle pins are sharp. The ones too close to us or to far from us are out of focus.</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href="kozgyuru_22.jpg" title="Extension tube F22">
+<img class="shadow noscale" alt="vaz" src="kozgyuru_22_th.jpg" />
+</a>
+  
+<div style="clear: both">&nbsp;</div>
+<p class="comment">You might think (after checking the images) that the extension tube is
+  in a very bad shape. In fact it works great, the small scratches do not affect it.</p>
+
+<p>One solution to the problem is the  <em>focus stacking</em> when we create multiple images (using different focus distances)
+  and merge the images later to create a new image with a much greater depth of field.</p>
+</div>
+
+<div class='section' id='technika'>
+
+<h2>Technique</h2>
+
+<p>I was using a prime lens (SMC Pentax-A 1:2 50mm) and an 56mm extension tube (the other two elements of the set).
+This setup has 1.2:1 magnification.</p>
+
+<p>I took 45 pictures. </p>
+<ul>
+<li>Sturdy tripod is a must.</li>
+<li>It is best to create all the pictures using the same lighting conditions.</li>
+<li>We should use the same settings ( ISO, aperture, exposure time, white balance, ... ) for all the pictures.
+</li>
+<li>My settings: ISO: 200, aperture: F8, exposure time: 1/4 s</li>
+<li>F8 might sound strange because we usually use smaller aperture (e.g. F22) if we need greater depth of field. Since we create multiple images it is not important to use the smallest aperture, the lens perform better at F8.
+  (Well, I should test it.)</li>
+<li>Instead of the focus ring I'm using a macro rail to change the focus. It is a much better and more convenient to use a macro rail.</li>
+<li>It is important not to move the tripod and the camera. Tethering the camera using computer (I was using <a href="http://pktriggercord.melda.info/">pkTriggerCord</a>)
+  makes it easier not to move the camera. I adjusted the macro rail using (very carefully) a hex key.</li>
+<li>It is quite obvious that all the parts of our subject should be sharp at least on one of the images.
+  Actually it is better to create more images since it is much easier to merge the images if all the parts are sharp on multiple images.</li>
+<li>It is always important to keep the lens and the sensor clean. In this case it's even more important. A smudge may appear on the final image multiple times.</li>
+</ul>
+
+<p>I don't show all the 45 pictures, but here you can find three:</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href="eredeti_frame_00.jpg" title="Original / 00">
+<img class="shadow noscale" alt="vaz" src="eredeti_frame_th_00.jpg" />
+</a>
+
+<a class="fancybox" data-fancybox-group="gallery" href="eredeti_frame_15.jpg" title="Original / 15">
+<img class="shadow noscale" alt="vaz" src="eredeti_frame_th_15.jpg" />
+</a>
+
+<a class="fancybox" data-fancybox-group="gallery" href="eredeti_frame_40.jpg" title="Original / 40">
+<img class="shadow noscale" alt="vaz" src="eredeti_frame_th_40.jpg" />
+</a>
+
+</div>
+
+<div class='section' id='illesztes'>
+
+<h2>Image alignment</h2>
+
+<p>If we check the images we will can realize that the object "moves", it does not appear on the same place. First we need to align the images.</p>
+
+<p>I'm using <a href="http://wiki.panotools.org/Align_image_stack">align_image_stack</a> for this.
+  We give the original images as input images (<code>extensiontube_*</code> files in this example) and the result is the exact same number of (slightly resized and repositioned ) images 
+  (<code>ais_extensiontube*.tif</code> in this example).</p>
+
+<p>In theory we need the following command:</p>
+
+<p>
+<code class="block">
+align_image_stack -m -a ais_extensiontube_ extensiontube*.png
+</code>
+</p>
+
+<p>In the real life image alignment will not always work so I was using the following command:</p> 
+
+<p>
+<code class="block">
+align_image_stack -c 16 -s 2 -m -a ais_extensiontube_ extensiontube*.png
+</code>
+</p>
+
+<p>A few explanations:</p>
+<ul>
+  <li><code>-m</code>: We need this for focus stacks. The description from the man page:
+    "Optimize field of view for all images, except for first. Useful for aligning focus stacks with slightly different magnification." </li>
+<li><code>-c 16</code>: Number of control points. The default value is 8, using 16 gave me better results.</li>
+<li><code>-s 2</code>: Scale down the image by 2^scale. The default value is 1, using 2 is useful if we have lots of blurred areas.</li>
+</ul>
+
+<p>Probably it is possible to find the optimal values using some kind of algorithm, I was using (lots of) trial and error.</p>
+
+<p>I show the previous three images again. Moving the cursor above the images will show the aligned version (there is no change for the first image):</p>
+
+
+<a class="fancybox" data-fancybox-group="gallery" href="illesztett_frame_00.jpg" title="Aligned / 00">
+  <img class="shadow noscale" src="eredeti_frame_th_00.jpg"
+			      onmouseover="changeImg('ill00','illesztett_frame_th_00.jpg')"
+			      onmouseout="changeImg('ill00','eredeti_frame_th_00.jpg')"
+			      id="ill00"
+			      alt="Eredeti 00" />
+</a>
+
+<a class="fancybox" data-fancybox-group="gallery" href="illesztett_frame_15.jpg" title="Aligned / 15">
+  <img class="shadow noscale" src="eredeti_frame_th_15.jpg"
+			      onmouseover="changeImg('ill15','illesztett_frame_th_15.jpg')"
+			      onmouseout="changeImg('ill15','eredeti_frame_th_15.jpg')"
+			      id="ill15"
+			      alt="Eredeti / 15" />
+</a>
+
+<a class="fancybox" data-fancybox-group="gallery" href="illesztett_frame_40.jpg" title="Aligned / 40">
+  <img class="shadow noscale" src="eredeti_frame_th_40.jpg"
+			      onmouseover="changeImg('ill40','illesztett_frame_th_40.jpg')"
+			      onmouseout="changeImg('ill40','eredeti_frame_th_40.jpg')"
+			      id="ill40"
+			      alt="Eredeti / 40" />
+</a>
+</div>
+
+<div class='section' id='egyesites'>
+
+<h2>Fusing the images</h2>
+
+<p>After the image alignment we need to merge the images by choosing the sharp part of the different pictures.
+  I'm using <a href="http://enblend.sourceforge.net/">enfuse</a> 4.0.</p>
+
+<p>In theory we need this:</p>
+
+<p>
+<code class="block">
+enfuse -o output.tif --exposure-weight=0 --saturation-weight=0 --contrast-weight=1 --hard-mask ais_extensiontube_*.tif
+</code>
+</p>
+
+<p>Enfuse can use several criteria to check the pixels and choose the optimal source image. For focus stacking the most important is the contrast, that's why the weight for this is 100% (and 0% for exposure and saturation).</p>
+
+<p>We also need <code>--hard-mask</code> otherwise the result is too soft.</p>
+
+<p>In practice I used this command:</p>
+
+<p>
+<code class="block">
+enfuse -o output.tif --contrast-edge-scale=0.3 --gray-projector=l-star
+--exposure-weight=0 --saturation-weight=0 --contrast-weight=1 --hard-mask  ais_extensiontube_*.tif
+</code>
+</p>
+
+<p>The documentation of enfuse describes all the parameters and gives us a few hints how to choose the optimal values. Trial and error is also very useful.</p>
+
+<p>The final image can be seen here:</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href="vegso_frame.jpg" title="Enfused">
+<img class="shadow noscale" alt="végső" src="vegso_frame_th.jpg" />
+</a>
+
+<div style="clear: both">&nbsp;</div>
+
+<p>It can be seen that the edge of the image (specially the top and the right edge) is not sharp because no input image shows this part in focus. We need to crop the image, I just show it for test purposes.</p>
+
+</div>
+
+<div class='section' id='youtube'>
+
+<h2>Demonstration video</h2>
+
+<p>The following video shows the original images, the aligned images, and the final result. It is much easier to see the the alignment on a video:</p>
+
+<iframe class="borderless" width="520" height="390" title="YouTube video player"
+	src="http://www.youtube.com/embed/ypFIE85KuVU"></iframe>
+</div>
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>

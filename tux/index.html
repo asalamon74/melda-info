@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+  <!-- Add jQuery library -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
+
+  <!-- Add mousewheel plugin (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox main JS and CSS files -->
+  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+  <!-- Add Button helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+  <!-- Add Thumbnail helper (this is optional) -->
+  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+  <!-- Add Media helper (this is optional) -->
+  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+  <script src="/scripts/touchswipe/jquery.touchSwipe.js?v=1.6.15"></script>
+
+  <script type="text/javascript" src="/scripts/default.js"></script>
+
+  <title>Tux varrás</title>
+  <link type="text/css" rel="Stylesheet" title="Default Stylesheet" href="../navi.css" />
+
+  <link rel="publisher"
+        href="https://plus.google.com/u/1/100962535000040906452/" />
+  <meta name="author" content="András Salamon">
+  <meta name="description" content="Tux készítés házilag, szabászképesség nélkül." />
+
+  <script>
+  $(function(){
+  $("footer").load("../footer.html"); 
+  });
+  </script>
+</head>
+
+<body>
+
+<div class='map'>
+  <h2>Tartalomjegyzék</h2>
+  <ul>
+  <li id='p1'><a href="#szabasminta">1. Szabásminta</a></li>
+  <li id='p2'><a href="#hozzavalok">2. Hozzávalók</a></li>
+  <li id='p3'><a href="#szabas">3. Szabás</a></li>
+  <li id='p4'><a href="#varras">4. Varrás</a></li>
+  <li id='p5'><a href="#szem">5. Szem</a></li>
+  <li id='p6'><a href="#vegeredmeny">6. Végeredmény</a></li>
+  </ul>
+</div>
+
+  <div id="topbar">
+    <p>&nbsp;
+    <a style="float:right;" href="../en/tux/" class="flag-icon flag-icon-gb-eng"></a>
+    <span style="float:right; margin-right: 0.5em;" class="flag-icon flag-icon-hu"></span>
+    </p>
+  </div>
+
+<div class='main'>
+
+<h1>Tux készítés házilag</h1>
+
+<p>A weben talált szabásminta alapján próbáltam egy Tuxot készíteni. 
+Minél több fényképpel dokumentálom Tux születését, hátha másoknak segítenek a képek, nekem jól jött volna.</p>
+
+<p>Abból, hogy Tuxot készítek, ki lehet találni, hogy az informatika közelebb áll hozzám mint
+a szabászat, így minimális eszközkészletet és szakértelmet használok csak a folyamat során.</p>
+
+<div class='section' id='szabasminta'>
+<h2>Szabásminta</h2>
+
+<p>GPL Szabásminta található <a href="http://www.free-penguin.org/">ezen a linken</a>. A 0.6-os verziót töltöttem le, abból is az A4-es verziót. 
+(A teljes méret A1-es papírra fér, de ez kissé túl nagy)
+<a href="TUX_pattern_0.6_a4.pdf">Lokálisan</a> is elmentem a file-t, hátha az eredeti oldal elérhetetlen lesz.</p>
+
+<p>
+<a class="fancybox" data-fancybox-group="gallery" href='a4.jpg'
+   title="A4-es szabásminta" ><img src='a4.jpg' alt='a4'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='szabasminta_kivagott.jpg' title="Szabásminta kivágva"><img src='szabasminta_kivagott.jpg' alt='szabasminta_kivagott'/></a>
+</p>
+<p>
+Ha nem a megadott méretben szeretnénk elkészíteni a Pingvint, akkor kicsinyíteni, nagyítani kell
+a szabásmintát, én maradtam a megadott méretnél. 
+Először is ki kell nyomtatni a szabásmintát. 9 darab A4-es lapot kapunk, de igazából 
+csak 6-ot kell feltétlenül kinyomtatni, a másik 3 darabon csak szöveg és képek vannak.
+Ezután ki kell vágni a mintát, és mivel néhány mintha több lapot foglal el, ezért össze kell illeszteni
+(ez nem is feltétlen triviális, ha a nyomtató a papír szélét üresen hagyja) és ragasztani.</p>
+</div>
+
+<div class='section' id='hozzavalok'>
+<h2>Hozzávalók beszerzése</h2>
+
+<p>Legfontosabb az anyag beszerzése, háromféle szín kell: fekete, fehér, sárga. Én az IKEA-ban vásárolt
+POLARVIDE takarót használtam fel erre a célra. Nyilvánvalóan hülyeségnek tűnik takaróból kivágni a szabásmintát,
+ahelyett, hogy valami rövidáruboltban vennénk anyagot, de meglepő módon olcsóbb volt a sál, mint
+a RÖLTEX-ben az anyag, ráadásul a színválaszték is nagyobb volt (Sárga helyett narancssárgább kellene, de olyant nem találtam).</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='fekete.jpg'
+   title="Fekete Polarvide"><img src='fekete.jpg' alt='fekete'/></a>
+<a class="fancybox" data-fancybox-group="gallery" href='feher.jpg'
+   title="Fehér Polarvide"><img src='feher.jpg' alt='feher'/></a>
+<a class="fancybox" data-fancybox-group="gallery" href='sarga.jpg'
+   title="Sárga Polarvide"><img src='sarga.jpg' alt='sarga'/></a>
+
+<p>Szükségünk lesz még valamire, amivel kitömhetjük a pingvint. Ezt már rövidáruboltból
+szereztem be, ránézésre olyen mint a vatta, de valójában nagyon jónak tűnik. Szivacsdarabkákat is használhatnánk.</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='tomes.jpg'
+   title="Vattaszerű tömőanyag"><img src='tomes.jpg' alt='tomes'/></a>
+
+
+<p>Ezen kívül kell még olló, varrótű, gombostű, cérna (az anyagnak megfelelő színekben), és én még egy 
+szabászkrétát is beszereztem:</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='kreta.jpg' title="Szabászkréta"><img src='kreta.jpg' alt='kreta'/></a>
+
+</div>
+
+<div class='section' id='szabas'>
+<h2>Szabás</h2> 
+
+<p>Először is a krétával fel kell rajzolni a mintákat az anyagra. Minden mintához meg van adva a leírásban,
+hogy hány példány (1, 2 vagy 4) kell belőle. A minták között hagyjunk szabad helyet. A rajzolás után már
+látszik, hogy a megvásárolt sálakból 5-6 normál méretű pingvin is kijönne, és még akkor is csak a fekete anyag
+fogyna el. Mivel a vásárolt anyag mindkét oldala egyforma, nem törődtem a tükrözéssel. Ha valaki olyan
+anyagot vásárol, aminek a két oldala különbözik, akkor erre is figyeljen oda!</p>
+
+<p>Az anyagra rajzolni szabászkrétával nem túl kényelmes, az anyag nyúlik, a minta csúszkál, a kréta nem túl
+pontos.</p>
+
+<p>Bár nem írják a weboldalon, rövid gondolkodás után nyilvánvalónak tűnt, hogy nem a berajzolt vonal mentén
+kell kivágni, hanem 0.5-1 cm ráhagyással. Mint később majd nyilvánvaló lesz, érdemes mindenhol egyenletesen
+ugyanannyi plusz anyagot hagyni.</p>
+
+<a class="fancybox" data-fancybox-group="gallery"
+   href='fekete_szabas.jpg' title="Fekete szabás"><img src='fekete_szabas.jpg' alt='fekete_szabas'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='feher_szabas.jpg' title="Fehér szabás"><img src='feher_szabas.jpg' alt='feher_szabas'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='sarga_szabas.jpg' title="Sárga szabás"><img src='sarga_szabas.jpg' alt='sarga_szabas'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='kivagott_anyag.jpg' title="Kivágott anyagok"><img src='kivagott_anyag.jpg' alt='kivagott_anyag' /></a>
+
+</div>
+
+<div class='section' id='varras'>
+<h2>Varrás</h2>
+
+<p>A szárnyakkal (szabásmintán: wing) kezdtem. Először is két kivágott szárnymintát egymásra helyeztem, majd a kréta mentén összevarrtam
+(A kréta varrás közben le is kopik). Igyekezzünk egyenletesen varrni. Az nem tűnik túl fontosnak, hogy az öltések
+hossza egyforma legyen, de a vonalban kell maradni, különben kifordítva csúnya lesz a varrás. Nem kell a 
+szárnyat teljesen körbevarrni, ahol a testhez csatlakozik, ott szabadon maradhat. </p>
+
+
+<p>Varrás után ki lehet fordítani a szárnyat.Ezután a testen vágott lukba illesztve, a szárny a testhez varrható. </p>
+
+<a class="fancybox" data-fancybox-group="gallery"
+   href='szarny_kiforditott.jpg' title="Kifordított szárny"><img src='szarny_kiforditott.jpg' alt='szarny_kiforditott'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='szarny_visszaforditott.jpg' title="Visszafordított szárny"><img src='szarny_visszaforditott.jpg' alt='szarny_visszaforditott'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='szarny_felvarrva.jpg' title="Felvarrt szárny"><img src='szarny_felvarrva.jpg' alt='szarny_felvarrva'/></a>
+
+<p>A lábak más módon csatlakoznak a törzshöz, azokat külön kell megtömni. A lábakat sem varrhatjuk körbe teljesen, különben
+nem tudnánk kifordítani, és megtömni őket. Viszont így az utolsó néhány öltést már belülről kellene varrnunk. Kis nehézség
+árán sikerült összevarrnom. Biztos van erre valami tuti jó módszer is, én addig próbálkoztam, amíg elfogadható nem lett. Az 
+eredményen az is látszik, hogy a középső ujj nagyobb is lehetne.</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='lab_tomve.jpg'
+   title="Kitömött láb"><img src='lab_tomve.jpg' alt='lab_tomve'/></a>
+
+<p>A lábat leszámítva a többi alkatrészt egymás után kell összevarrni, a pingvin hátát hagyva utoljára.</p>
+
+<a class="fancybox" data-fancybox-group="gallery"
+                                                         href='has_felvarrva.jpg' title="Felvarrt has"><img class="shadow
+                                                         thumbnail" src='has_felvarrva.jpg' alt='has_felvarrva'/></a>
+
+<p>Első nehézség a pingvin oldalának (szabásmintán: side), és fenekének (derrier - de most őszintén, miért nem ass, vagy butt? )
+     illesztése. Ha összemérjük a két illesztendő anyagot, akkor kiderül, hogy nem egyformák. A térbeliség miatt az oldal egy részét
+saját magával kell összevarrni (ahol a 'wedge here' felirat van). Pontosan el kell találni, hogy mennyit kell saját magával összevarrni,
+különben elcsúszik a pingvin feneke.</p>
+
+<p>Legnehezebbnek számomra a csőr (beak) varrása bizonyult. Egyrészt a mintán semmi sem jelzi, és csak a pingvin elkészítése után vettem
+észre, hogy a csőr két fele között fekete csík van. Ez valószínűleg egyszerűen megoldható, ha varráskor teszünk oda egy fekete
+anyagdarabot. De mivel későn vettem észre, ez hiányzik a pingvinemről.</p>
+
+<p>A másik probléma a csőr helyének meghatározása. Már a mintán is látszik, hogy nem a minta széléhez kell varrni, hanem
+a pöttyös-szaggatottal jelölt helyre. Ezt már önmagában is nehéz megtalálni, ráadásul a fehér színű has (bib) jóval hosszabb mint a fekete
+színű oldal (side). Ezért a csőr helyét én csak elég sok kísérletezgetés után találtam meg. Először csak gombostűvel tűztem
+össze,majd összeférceltem,végül összevarrtam. Figyelni kell még arra, hogy a tömés hatására elmozdulnak az elemek. A kövezkező képen az látszik,
+hogy a tömés nélkül jónak tűnő csőr tömés után elég nagyképű pingvint eredményez,ezért a csőr alját oda kellett varnom a hasához.</p>
+
+<a class="fancybox" data-fancybox-group="gallery"
+   href='csor_urestux.jpg' title="Üres csőr"><img class="shadow thumbnail" src='csor_urestux.jpg' alt='csor_urestux'/></a>
+<a class="fancybox" data-fancybox-group="gallery"
+   href='csor_teletux.jpg' title="Tele csőr"><img class="shadow thumbnail" src='csor_teletux.jpg' alt='csor_teletux'/></a>
+
+</div>
+
+<div class='section' id='szem'>
+<h2>Szem</h2>
+
+<p>Bár lehet vásárolni szemeket, sajnos a megfelelő méretben nem sikerült szemet szereznem, így az eredetileg ideiglenesnek
+gondolt megoldással a fehér és a fekete anyagból kivágott ovális darabkákból készítettem szemet.</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='szem.jpg' title="Szem"><img class="shadow thumbnail" src='szem.jpg' alt='szem'/></a>
+
+
+</div>
+
+<div class='section' id='vegeredmeny'>
+
+<h2>Végeredmény</h2>
+
+<p>A végeredmény Tuxra hasonlító, ám kissé csálé pingvin lett. Anyagom még van 4-5 próbálkozásra, de egyelőre pihentetem a dolgot.</p>
+
+<a class="fancybox" data-fancybox-group="gallery" href='kesz1.jpg'
+   title="Kész Tux / 1"><img src='kesz1.jpg' alt='kesz1'/></a>
+<a class="fancybox" data-fancybox-group="gallery" href='kesz2.jpg'
+   title="Kész Tux / 2"><img src='kesz2.jpg' alt='kesz2'/></a>
+<a class="fancybox" data-fancybox-group="gallery" href='kesz3.jpg'
+   title="Kész Tux / 3"><img src='kesz3.jpg' alt='kesz3'/></a>
+
+</div>
+</div>
+
+<footer>
+</footer>
+
+</body>
+</html>
