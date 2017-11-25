@@ -1,0 +1,109 @@
+@import "../../navi.css";
+@import url(http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT);
+
+/* Different color for husevo */
+
+div.map { 
+  background: #8899CC;
+}
+
+/*
+div.bmap {
+  background: #8899CC;
+}
+*/
+
+div.map p, div.map li, div.map h2 {
+  background: #4E6AA6;
+  color: white;
+}
+
+div.map li li {			/* Nested LIs don't get the dogear */
+  background: #aa7;
+  color: white
+}
+
+div.map a:hover {
+  background: #4E6AA6;
+  color: #000 
+}
+
+div#Menu:before, div.map:before {
+  content: "Húsevő";
+  color: #666666;
+/*  font-size: larger;
+  font-style: italic;
+  text-align: left;
+  letter-spacing: 0.25em */
+}
+
+body {
+  background-image: none;
+}
+
+/* End of Husevo colors */
+
+figure {
+    border: none;
+    background-color: #3E5A96;
+}
+
+figcaption {
+    border-right: solid 1em transparent;
+}
+
+a.thumb img, div.imagecaption img, figure.image img {
+height: 150px;
+
+/* Simple border shadow without any additional images */
+padding:8px 8px 0px 8px;
+/*border:solid;*/
+border-color: #ddddff #aaaacc #aaaacc #ddddff;
+border-width: 1px 2px 2px 1px;
+background-color: #3E5A96;
+margin: 1px;
+}
+
+body {
+background-color: #5E8AC6;
+}
+
+h1,h2,h3 {
+font-family: 'OFL Sorts Mill Goudy TT', serif;
+font-style: normal;
+font-weight: 700;
+text-shadow: 2px 2px 2px #3e5a96;
+text-decoration: none;
+text-transform: none;
+letter-spacing: 0em;
+word-spacing: 0em;
+line-height: 1em;
+}
+
+h1 {
+font-size: 36px;
+text-align: left;
+}
+
+h2 {
+font-size: 28px;
+clear: both;
+padding-top: 10px;
+}
+
+h3 {
+font-size: 20px;
+}
+
+div.imagecaption {
+float: left;
+}
+
+div.caption {
+font-style: italic;
+font-size: 80%;
+}
+
+footer {
+    background-color: #4E6AA6;
+}

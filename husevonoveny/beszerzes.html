@@ -1,107 +1,80 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="hu" lang="hu">
+<html lang="hu">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link href="styles/husevo.css" rel="stylesheet" type="text/css"></link>
-
-  <!-- Add jQuery library -->
-  <script type="text/javascript" src="/scripts/fancybox/jquery-1.10.1.min.js"></script>
-
-  <!-- Add mousewheel plugin (this is optional) -->
-  <script type="text/javascript" src="/scripts/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-
-  <!-- Add fancyBox main JS and CSS files -->
-  <script type="text/javascript" src="/scripts/fancybox/jquery.fancybox.js?v=2.1.5"></script>
-  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
-
-  <!-- Add Button helper (this is optional) -->
-  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-
-  <!-- Add Thumbnail helper (this is optional) -->
-  <link rel="stylesheet" type="text/css" href="/scripts/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-
-  <!-- Add Media helper (this is optional) -->
-  <script type="text/javascript" src="/scripts/fancybox/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-  <script type="text/javascript" src="/scripts/default.js"></script>    
-  
   <title>Húsevő növények</title>
-  <meta name="description" content="Húsevő növényekről egyszerűen" />  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cerulean/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/husevo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/999c1ebb04.js"></script>
 
-  <script>
-  $(function(){
-  $("footer").load("../footer.html"); 
-  });
-  </script>      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+  <script> 
+    $(function(){
+    $("#header").load("header.html", function() {
+    $('a[href="' + location.pathname.split('/').slice(-1)[0] + '"]').parents('li,ul').addClass('active');    
+    });
+    $("#footer").load("footer.html"); 
+    });
+  </script> 
+  <meta name="description" content="Húsevő növényekről egyszerűen." />  
 </head>
 <body>
+  <div id="header"></div>
+  <div class="container">
+    <h1>Beszerzés</h1>
+    Először is növényekhez kell jutnunk. Ha nincs akkora szerencsénk, hogy
+    ajándékba kapjunk, akkor bizony vásárolni kell. Bár sokmindentől függ
+    az ár, általánosságban arra lehet számítani, hogy néhány
+    száz forintért kaphatunk kis növényeket, párezer forintért nagy fejlett 
+    növényeket. Kezdetben szerintem érdemesebb kis (és olcsó) növényekkel kezdeni,
+    és ha már kitapasztaltuk a növényeket, akkor váltani nagyobbra. 
+    <br />
+    <h2>Virágboltban</h2>
+    Bár ez tűnik a legegyszerűbbnek, valójában elég kevés virágüzletben
+    lehet ilyen növényeket venni. Viszonylag rendszeresen találni nagy
+    kertészetekben húsevő növényeket (pl. OBI, Oázis).
+    <br />
+    Arra sajnos azért számítani lehet, hogy ha találunk is ilyen növényt a kedvenc 
+    virágosunknál, többnyire nem tudják megmondani a pontos fajtáját, és gyakran
+    nem tudják hogy kell vele bánni, ezért elég rossz állapotban is lehet
+    a növény.
+    <br />
+    <em>Néhány évvel ezelőtt a Különleges Növények Boltjában, Budapesten a Dob utca
+      és az Erzsébet körút sarkán lehetett könnyen növényeket beszerezni, de a bolt 
+      sajnos már bezárt.</em>
+    <br />
+    <h2>Rendelés házhozszállítással</h2>
+    Növényünket megrendelhetjük interneten keresztül úgy, hogy a posta szállítja
+    ki. Az elsõ ilyen oldal Magyarországon az azóta megszűnt
+    http://www.husevonoveny.hu volt, de azóta megnyílt
+    a <a href="http://www.vizi-husevonoveny.hu/">http://www.vizi-husevonoveny.hu/</a>
+    is. Én
+    személyesen még sosem rendeltem így, nem bízom annyira a postában, hogy
+    egy élő növényt merjek velük házhozszállítani. 
+    <br />
+    Külföldön sokkal több ilyen oldalt találhatunk. szállítás kockázata még nagyobb, az árak is sokkal drágábbak.
+    Ha speciális növényre van szükségünk, akkor persze szóba jöhet.
+    <br />
+    <h2>Magok házhozszállítással</h2>
+    Bár élő növényt nem bíznék a postára, magokat már többször vettem így, 
+    mindig rendesen megkaptam. Persze így elég sok idő eltelik, míg látunk
+    valamit a növényből. A speciális növényboltok mellett érdemes akár
+    ebay-en is keresni.
+    <br />
+    <h2>Növénykiállításokon</h2>
+    A növénykiállításon elég gyakran előfordulnak árusok (nem mintha sokan
+    foglalkoznának ezzel Magyarországon), akik húsevő növényeket árulnak. Én
+    az első húsevő növényeimet egy Bonsai kiállításon vettem (azóta azok
+    el is pusztultak már), de vásároltam már Orchidea kiállításon is.
 
-<div class='map'>
-  <h2>Tartalomjegyzék</h2>
-  <ul>
-  <li id='p1'><a href="bevezetes.html">1. Bevezetés </a></li>
-  <li id='p2'><a href="beszerzes.html">2. Beszerzés</a></li>
-  <li id='p3'><a href="novenyek.html">3. Növények</a></li>
-  <li id='p4'><a href="neveles.html">4. Nevelés</a></li>
-  <li id='p5'><a href="terrarium.html">5. Növényház</a></li>
-  <li id='p6'><a href="szaporitas.html">6. Szaporítás</a></li>
-  </ul>
-</div>
-
-<footer>
+  </div>
+<footer id="footer">
 </footer>
 
-<div class="main">
-
-<h1>Beszerzés</h1>
-Először is növényekhez kell jutnunk. Ha nincs akkora szerencsénk, hogy
-ajándékba kapjunk, akkor bizony vásárolni kell. Bár sokmindentől függ
-az ár, általánosságban arra lehet számítani, hogy néhány
-száz forintért kaphatunk kis növényeket, párezer forintért nagy fejlett 
-növényeket. Kezdetben szerintem érdemesebb kis (és olcsó) növényekkel kezdeni,
-és ha már kitapasztaltuk a növényeket, akkor váltani nagyobbra. 
-<br />
-<h2>Virágboltban</h2>
-Bár ez tűnik a legegyszerűbbnek, valójában elég kevés virágüzletben
-lehet ilyen növényeket venni. Viszonylag rendszeresen találni nagy
-kertészetekben húsevő növényeket (pl. OBI, Oázis).
-<br />
-Arra sajnos azért számítani lehet, hogy ha találunk is ilyen növényt a kedvenc 
-virágosunknál, többnyire nem tudják megmondani a pontos fajtáját, és gyakran
-nem tudják hogy kell vele bánni, ezért elég rossz állapotban is lehet
-a növény.
-<br />
-<em>Néhány évvel ezelőtt a Különleges Növények Boltjában, Budapesten a Dob utca
-és az Erzsébet körút sarkán lehetett könnyen növényeket beszerezni, de a bolt 
-sajnos már bezárt.</em>
-<br />
-<h2>Rendelés házhozszállítással</h2>
-Növényünket megrendelhetjük interneten keresztül úgy, hogy a posta szállítja
-ki. Az elsõ ilyen oldal Magyarországon az azóta megszűnt
-http://www.husevonoveny.hu volt, de azóta megnyílt
-a <a href="http://www.vizi-husevonoveny.hu/">http://www.vizi-husevonoveny.hu/</a>
-is. Én
-személyesen még sosem rendeltem így, nem bízom annyira a postában, hogy
-egy élő növényt merjek velük házhozszállítani. 
-<br />
-Külföldön sokkal több ilyen oldalt találhatunk. szállítás kockázata még nagyobb, az árak is sokkal drágábbak.
-Ha speciális növényre van szükségünk, akkor persze szóba jöhet.
-<br />
-<h2>Magok házhozszállítással</h2>
-Bár élő növényt nem bíznék a postára, magokat már többször vettem így, 
-mindig rendesen megkaptam. Persze így elég sok idő eltelik, míg látunk
-valamit a növényből. A speciális növényboltok mellett érdemes akár
-ebay-en is keresni.
-<br />
-<h2>Növénykiállításokon</h2>
-A növénykiállításon elég gyakran előfordulnak árusok (nem mintha sokan
-foglalkoznának ezzel Magyarországon), akik húsevő növényeket árulnak. Én
-az első húsevő növényeimet egy Bonsai kiállításon vettem (azóta azok
-el is pusztultak már), de vásároltam már Orchidea kiállításon is.
-
-</div>
 </body>
 </html>
-

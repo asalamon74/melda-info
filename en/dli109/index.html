@@ -49,8 +49,9 @@
   <h2>TOC</h2>
   <ul>
     <li id='p1'><a href="#bevezetes">Intro</a></li>
-    <li id='p1'><a href="#bevezetes">Test</a></li>    
-    <li id='p1'><a href="#bevezetes">Results</a></li>
+    <li id='p2'><a href="#teszt_pktriggercord">Test 1</a></li>
+    <li id='p3'><a href="#teszt_fenykepek">Test 2</a></li>        
+    <li id='p4'><a href="#eredmenyek">Results</a></li>
 
   </ul>
 </div>
@@ -90,30 +91,21 @@
 
 </div>
 
-<div class='section' id='teszt'>
+<div class='section' id='teszt_pktriggercord'>
 
-<h2>The test</h2>
+<h2>Test - PkTriggerCord</h2>
 
-<p>I'm using my K-70 for the test. There are several ways to test the batteries. It would be possible to use interval shooting and create a new image every minute.
-  After that I chould check the pictures using  <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>. This method would create lots of useless images.
-  I was looking for a way to test it without increasing the shutter count.</p>
+<p>First I was looking for a way to test the batteries without taking lots of  useless images.</p>
 
-<p>I was using <a href="pktriggercord.melda.info">pktriggercord</a> (my Pentax tethering software) after I connected the camera to the computer using an USB
+<p>I was using <a href="http://pktriggercord.melda.info">pktriggercord</a> (my Pentax tethering software) after I connected the camera to the computer using an USB
 cable. The program can read battery voltage. It returns two values
-  (V<sub>1</sub> és V<sub>2</sub>), even the well-known exiftool calls these value simply voltage1, voltage2. Probably these are the unloaded and the loaded voltages
+  (V<sub>1</sub> and V<sub>2</sub>), even the well-known exiftool calls these value simply voltage1, voltage2. Probably these are the unloaded and the loaded voltages
   (V<sub>1</sub> > V<sub>2</sub> is always true).</p>
 
 <p>The program read the camera status twice every minute, the camera was doing nothing else. I was testing freshly charged batteries. Brand new ones, I was charging/discharging
   the batteries only once or twice.</p>
 
 <p>Of course this method does not test quite a few things: What will happen after 100 charge/discarge cycles? What is the temperature is extremely low...</p>
-
-</div>
-
-<div class='section' id='eredmenyek'>
-
-
-<h2>Results</h2>
 
 <p>It took 6 hours and 15 minutes for the original battery to deplete. I only took 4 hours 42 minutes for the VHBW battery. I've created a graph
   (using <a href="http://www.gnuplot.info/">gnuplot</a>) to show the voltage change during the test.</p>
@@ -125,6 +117,33 @@ cable. The program can read battery voltage. It returns two values
 					     alt=""/></a>
 </figure>
 
+</div>
+
+<div class='section' id='teszt_fenykepek'>
+
+<h2>Test - Photos</h2>
+
+<p>In this test I was using an external remote control and I took pictures using 30 second delays. I read the battery info using
+  <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftool</a>.</p>
+
+<p>I was testing freshly charged batteries, not brand new ones.</p>
+
+<p>It took 5 hours and 30 minutes for the original battery to deplete. I only took 4 hours 8 minutes for the VHBW battery. I've created a graph
+  (using <a href="http://www.gnuplot.info/">gnuplot</a>) to show the voltage change during the test.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title=""
+					     href="dli109_battery_intervaltimer_test.png"><img style="width:100%; height:100%"
+					     src="dli109_battery_intervaltimer_test.png"
+					     alt=""/></a>
+</figure>
+
+</div>
+
+<div class='section' id='eredmenyek'>
+
+  <h2>Results</h2>
+
 <p style="clear: both;">To summerize the results:</p>
   <ul>
     <li>The battery is depleted when V<sub>2</sub> (loaded voltage) goes bellow 6.79V.</li>
@@ -134,7 +153,7 @@ cable. The program can read battery voltage. It returns two values
   </ul>
 
 </div>
-  
+
 </div>
 
 <footer>

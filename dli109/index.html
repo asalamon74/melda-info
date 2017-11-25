@@ -49,8 +49,9 @@
   <h2>Tartalomjegyzék</h2>
   <ul>
     <li id='p1'><a href="#bevezetes">1. Bevezetés </a></li>
-    <li id='p1'><a href="#bevezetes">2. Teszt </a></li>    
-    <li id='p1'><a href="#bevezetes">3. Eredmények </a></li>
+    <li id='p2'><a href="#teszt_pktriggercord">2. Teszt 1</a></li>
+    <li id='p3'><a href="#teszt_fenykepek">3. Teszt 2</a></li>        
+    <li id='p4'><a href="#eredmenyek">4. Eredmények </a></li>
 
   </ul>
 </div>
@@ -91,16 +92,13 @@
 
 </div>
 
-<div class='section' id='teszt'>
+<div class='section' id='teszt_pktriggercord'>
 
-<h2>A teszt</h2>
+<h2>Teszt - PkTriggerCord</h2>
 
-<p>Egy Pentax K-70 géppel teszteltem az akkumulátorokat. Számtalan módon lehet tesztet végezni, a legegyszerűbbnek az lett volna, ha beállítom, hogy a
-gép percenként készítsen egy felvételt, majd megnézem, hogy egy teljesen feltöltött aksival hány fényképet tud a gép készíteni.
-A képeket <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftoollal</a> elemezve azt is meg lehet vizsgálni, hogy merül le folyamatosan
-  az akkumulátor. A módszer hátránya, hogy elég sok felesleges képet készítene a gép, így inkább olyan megoldást kerestem ami nem terheli annyira a zárat.</p>
+<p>Első tesztnek egy olyan módszert kerestem, ami nem készít többszáz felesleges képet.</p>
 
-<p>A teszthez a <a href="pktriggercord.melda.info">pktriggercord</a> programot (Pentax gépeket vezérlő saját fejlesztésű program) használtam miután egy USB
+<p>A teszthez a <a href="http://pktriggercord.melda.info">pktriggercord</a> programot (Pentax gépeket vezérlő saját fejlesztésű program) használtam miután egy USB
 kábellel összekötöttem a fényképezőgépet és a számítógépet. A program többek között az akkumulátor feszültségét is ki tudja olvasni. Két értéket lehet kiolvasni
 (V<sub>1</sub> és V<sub>2</sub>), ezeket még a mindentudó exiftool is egyszerűen voltage1, voltage2 néven ismeri. Vélhetően üresjárati feszültségről
 és kapocsfeszültségről van itt szó, amit az is megerősít, hogy mindig igaz, hogy V<sub>1</sub> > V<sub>2</sub>.</p>
@@ -110,13 +108,6 @@ kábellel összekötöttem a fényképezőgépet és a számítógépet. A progr
 
 <p>A teszt nyilvánvalóan nem teljes, rengeteg mindent lehetne még vizsgálni. Nem mond arról semmit pl. hogy miként fognak viselkedni az akkumulátorok 100
   töltési ciklus után, hogy reagálnak az extrém hidegre, a nagyobb terhelésre...</p>
-
-</div>
-
-<div class='section' id='eredmenyek'>
-
-
-<h2>Eredmények</h2>
 
 <p>Az eredeti Pentax akkumulátor 6 óra 15 perc alatt merült le, az utángyártott VHBW 4 óra 42 perc alatt.
   A kiolvasott adatok alapján <a href="http://www.gnuplot.info/">gnuplottal</a> gyártottam egy ábrát, ami mutatja, hogy az idő múlásával hogyan merültek le szépen folyamatosan az akkumulátorok.</p>
@@ -128,6 +119,35 @@ kábellel összekötöttem a fényképezőgépet és a számítógépet. A progr
 					     alt=""/></a>
 </figure>
 
+</div>
+
+<div class='section' id='teszt_fenykepek'>
+  
+<h2>Teszt - Fényképek </h2>
+
+<p>A következő tesztben fél percenként (külső kábeles távkioldót használva) készíttettem egy képat a Pentax K-70 géppel, majd a fájlokból <a href="http://www.sno.phy.queensu.ca/~phil/exiftool/">exiftoollal</a>
+  olvastam ki az akkumulátor állapotát.</p>
+
+<p>Itt is teljesen feltöltött akkumulátorokat vizsgáltam, itt már nem vadonat újakat.</p>
+
+
+<p>Az eredeti Pentax akkumulátor 5 óra 30 perc alatt merült le, az utángyártott VHBW 4 óra 8 perc alatt.
+  A kiolvasott adatok alapján <a href="http://www.gnuplot.info/">gnuplottal</a> gyártottam egy ábrát, ami mutatja, hogy az idő múlásával hogyan merültek le szépen folyamatosan az akkumulátorok.</p>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery" title=""
+					     href="dli109_battery_intervaltimer_test.png"><img style="width:100%; height:100%"
+					     src="dli109_battery_intervaltimer_test.png"
+					     alt=""/></a>
+</figure>
+
+</div>
+
+<div class='section' id='eredmenyek'>
+
+<h2>Eredmények</h2>
+
+
 <p style="clear: both;">Az eredményeket megvizsgálva nekem a következő látszik:</p>
   <ul>
     <li>A gép akkor merül le, amikor V<sub>2</sub> (a kapocsfeszültség) 6.79V alá csökkent.</li>
@@ -137,10 +157,14 @@ kábellel összekötöttem a fényképezőgépet és a számítógépet. A progr
       pénzből venni inkább 5-6 utángyártott aksit az 1 eredeti helyett.</li>
   </ul>
 
-</div>
-  
+
 </div>
 
+
+
+
+</div>
+  
 <footer>
 </footer>
 </body>
