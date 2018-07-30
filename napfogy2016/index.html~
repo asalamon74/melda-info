@@ -29,11 +29,12 @@
 
   
   <title>Teljes napfogyatkozás 2016.</title>
-  <meta name="generator" content="amaya 8.6, see http://www.w3.org/Amaya/" />
   <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
   <meta name="keywords"
   content="napfogyatkozás, nap, fényképezés, fotó, Indonézia, Pentax, Revue, Chinon"
   />
+  <meta name="description" content="Teljes napfogyatkozás fényképezése
+  2016. Indonézia" />
   <style>
     div.imagecaption, figure.image {
     margin: 0.4em;
@@ -42,6 +43,13 @@
     border: none;
     }
   </style>
+
+  <script>
+  $(function(){
+  $("footer").load("../footer.html"); 
+  });
+  </script>  
+  
 </head>
 
 <body>
@@ -52,17 +60,23 @@
   <li id='p1'><a href="#bevezetes">1. Bevezetés </a></li>
   <li id='p2'><a href="#reszleges">2. Részleges</a></li>
   <li id='p3'><a href="#totalitas">3. Totalitás</a></li>
-  <li id='p4'><a href="#gyemant">4. Baily</a></li>
-  <li id='p5'><a href="#video">5. Videó</a></li>
-  <li id='p6'><a href="#multiexpo">6. Multiexpó</a></li>
-  <li id='p7'><a href="#allvanyno">7. Állvány nélkül</a></li>
+  <li id='p4'><a href="#baily">4. Baily</a></li>
+  <li id='p5'><a href="#gyemant">5. Gyémánt</a></li>
+  <li id='p6'><a href="#video">6. Videó</a></li>
+  <li id='p7'><a href="#multiexpo">7. Multiexpó</a></li>
+  <li id='p8'><a href="#allvanyno">8. Állvány nélkül</a></li>
   </ul>
+</div>
+
+<div id="topbar">
+  <p>&nbsp;
+    <a style="float:right;" href="../en/napfogy2016/" class="flag-icon flag-icon-gb-eng"></a>
+    <span style="float:right; margin-right: 0.5em;" class="flag-icon flag-icon-hu"></span>
+  </p>
 </div>
 
 <div class='main'>
 
-<h1>EZ AZ OLDAL MÉG NINCS KÉSZ</h1>
-  
 <h1>Teljes napfogyatkozás 2016. Indonézia</h1>
 
 <p>A szokásos figyelmeztetés: <span
@@ -75,7 +89,7 @@ szűrőfólia nélkül ne nézz a napba, pláne ne távcsővel!</span></p>
 
 <p>2016. március 09. Észlelési hely Indonézia, Sulawesi (Celebesz), Kotapulu,
   Paluhoz közel. Itt figyelte a napfogyatkozást Indonézia
-  elnökhelyettese is, el is tartott egy ideig, míg meggyőztük a
+  <a href="http://www.antarasulteng.com/berita/24252/vice-president-kalla-watches-total-solar-eclipse-in-sigi-c-sulawesi">alelnöke</a> is, el is tartott egy ideig, míg meggyőztük a
   helyieket, hogy mi a napfogyatkozásra vagyunk kíváncsiak, és nem a
   politikusra. Elég nemzetközi csapat jött össze. Nem mi voltunk az
   egyedüli magyarok, egy nálunk sokkal rutinosabb magyar
@@ -110,7 +124,7 @@ Az észlelési hely koordinátája:
   S,119.874038 E</a>.
 </p>
 
-<p>A totalitás sávja jól látható <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2016_GoogleMapFull.html">ezen a google térképen</a>.</p>
+<p>A totalitás sávja jól látható Xavier M. Jubier <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2016_GoogleMapFull.html">google térképén</a>.</p>
 
 <h3>Felszerelés</h3>
 
@@ -121,7 +135,10 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
   használtam. Nem túl meglepő, de sokkal kényelmesebb volt ezt az
   állványt használni (Napot megkeresni, Napot követni), mint a
   fényképezőgépállványt a <a href="../napfogy2006">törökországi
-  napfogyatkozáskor</a>.</li> 
+    napfogyatkozáskor</a>. Ez az állvány szétszerelve éppen elfér egy elég
+  nagyméretű keményoldalú bőröndben (a bőrönd többi része pedig tele lesz a többi felszereléssel).
+  Én az állványt lemérve vettem a bőröndöt, lehet, hogy szerencsésebb lett volna a meglévő bőröndöket lemérve venni az állványt.
+</li> 
 <li>Távcső: SkyWatcher Makszutov-Cassegrain 102/1300</li>
 <li>Fényképezőgép: <a href="http://kmp.bdimitrov.de/bodies/K/Kx.html">Pentax
     K-x</a> (APS-C digitális gép)</li>
@@ -134,6 +151,9 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
     lehetne még a tükörfelcsapás utáni késleltetés, vagy az
     automatikus expozíciósorozat is, sajnos a három hasznos funkcióból
     egyszerre csak egyet lehet választani.)</em></li>
+<li>A fényképezőgép 4 ceruzaelemmel működik, ebből vadonatújat (lithium) használtam, hogy nehogy lemerüljön napfogyatkozás közben.
+  És volt persze tartalék is baj esetére. Általánosságban igaz szerintem, hogy az összes elemmel, akkumulátorral működő elektronikai
+  eszköznél teljesen feltöltve, tartalékkal készülve érdemes menni.</li>
 </ul>
 
 <figure class="image" id="felszereles">
@@ -145,6 +165,8 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
 </figure>
 
 <div class="clear"></div>
+
+<p>A felszerelést egy <a href="https://www.youtube.com/watch?v=1IWMxQuWjkY">videón</a> is meg lehet nézni.</p>
 
 <p>A kontaktusok idejének kiszámolásához az <a href="https://play.google.com/store/apps/details?id=com.FlyteSoft.EclipseChaserMobile">Eclipse
     Chaser Mobile</a> programot használtam, ami a mobiltelefon GPS
@@ -159,7 +181,9 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
 <figcaption>Eclipse Chaser Mobile</figcaption>
 </figure>
 
-<h3 style="clear: both">Szűrőfólia</h3>
+<div class="clear"></div>
+
+<h3 style="margin-top: 1em;">Szűrőfólia</h3>
 
 <p></p>
 
@@ -332,15 +356,12 @@ használni. Én Baader Astrosolar fóliát használtam, amit a <a
 
 <p></p>
 
-
-<p>Ezekre a képekre elég jól fel lehet készülni, hiszen a részleges fázisokat
-ugyanúgy fotózhatjuk, mint a teljes napot. Részleges napfogyatkozásnál pedig
-még alaposabban tesztelhetünk mindent.</p>
-
 <p>Mivel a részleges fázis elég sokáig tart, nagyon sok képet készíthetünk akár
   eltérő expozíciós idővel is. Még a részleges fázis előtt készítettem pár képet,
   és az alapján ISO 200, 1/1600 tűnt a legjobb választásnak, ezzel a beállítással
-  készült a legtöbb kép. Amikor felhősebb volt az ég, akkor hosszabb expozíciós időt
+  készült a legtöbb kép. (Valójában persze még indulás előtt Magyarországon sok
+  tesztképet készítettem, ez alapján előre tudtam, hogy kb. milyen záridőt érdemes használni).
+  Amikor felhősebb volt az ég, akkor hosszabb expozíciós időt
   (egészen 1/200-at is) használtam. Utólag visszagondolva jó kérdés, vajon az
   expozíciós időt volt-e érdemes változtatni, vagy inkább az ISO-t
   kellett volna.</p>
@@ -370,7 +391,8 @@ még alaposabban tesztelhetünk mindent.</p>
 <p>A felszerelés ugyanaz mint a részleges fázisnál, de természetesen
 ilyenkor szűrőt nem kell használni. </p>
 
-<p>ISO 200-at használtam itt is az összes képnél.</p>
+<p>ISO 200-at használtam itt is az összes képnél. (Leginkább azért, mert az összes többi fázisnál is ezt használtam,
+  és minél kevesebbet kell a beállításokat módosítani, annál kisebb az esély, hogy elrontunk valamit.)</p>
 
 <p>Korábbi tapasztalatok alapján expozíció-sorozatot (1/1600 másodperctől 1/15 másodpercig) készítettem.
 (Ennyi képből csak sikerül néhány) Az ennél is  hosszabb expozíciós időknél már kissé bemozdulna a nap.
@@ -426,15 +448,17 @@ végzünk a sorozattal legfelebb egy perc alatt, ami bőven belefért a 2:24-es
 
 
 <p>Eredetileg több képből
-  akartam <a href="http://www.astropix.com/HTML/J_DIGIT/E_COMP.HTM">Pellett
+  akartam <a href="http://www.astropix.com/html/j_digit/e_comp.html">Pellett
     módszerével</a> egy képet összeállítani, de így, hogy még a
   leghosszabb expozíciós időnél sem égett be a kép, ennek sok értelmét
-  nem láttam. Azért megpróbáltam digitálisan feljavítani a képet (
-  imagemagick segítségével ),
-  jobban kiemelve a napkoronát. Legjobban az 1/80-as kép sikerült, de
+  nem láttam. Azért megpróbáltam digitálisan feljavítani a képet,
+  jobban kiemelve a napkoronát. Az imagemagick-re épülő
+  scriptetem <a href="https://github.com/asalamon74/solarwind">itt</a>
+  található. Legjobban az 1/80-as kép sikerült, de
   még a szinte teljesen fekete 1/500-ból is elég sok részletet elő
   lehet csalni. Az 1/20-ason a legszebb a napkorona, de ott cserébe a
-  napkitörés már beég. A következő képpároknál a Nap középre van illesztve.</p>
+  napkitörés már beég. A következő képpároknál a Nap középre van
+  illesztve ( ezt szintén a script végzi, automatikusan ).</p>
 
 <figure class="image">
 <a class="fancybox" data-fancybox-group="gallery"
@@ -481,7 +505,7 @@ végzünk a sorozattal legfelebb egy perc alatt, ami bőven belefért a 2:24-es
 
 </div>
 
-<div class='section' id='gyemant'>
+<div class='section' id='baily'>
 <h2>Baily-féle gyöngyfüzér</h2>
 
 <p></p>
@@ -507,29 +531,66 @@ hasonlít.</p>
 
 <div class="clear"></div>
 
-<p>A felszerelés ugyanaz mint a részleges fázisnál és a napkoronánál,
-  szűrőt nem kell használni. ISO 200 mellett eltérő expozíciós 
+<p>Ezeknél a képeknél sem kell szűrőt használni. ISO 200 mellett eltérő expozíciós 
   időt használtam a második és harmadik kontaktusnál, 1/1600-at
   illetve 1/500-at. Sorozatot lőttem mindkét esetben. A második
   kontaktus 20 képe 8 másodperc alatt készült, a harmadik kontaktus 17
   képe 6 másodperc alatt. A fenti képeken a sorozatok természetesen
   digitálisan vannak összeillesztve. </p>
 
-<p>Bár elvileg másodperc pontossággal kiszámítható a második és harmadik konkaktus ideje,
+<p>Bár elvileg másodperc pontossággal kiszámítható a második és harmadik kontaktus ideje,
   azért nem olyan egyszerű elkapni a pillanatot. Digitális gépen persze bátran lehet
-  jó sok képet készíteni, ha a nap nem mászik ki a képből, akkor nem lesz baj. </p>
+  jó sok képet készíteni, ha a nap nem mászik ki a képből, akkor nem
+  lesz baj. A sorozat további előnye, hogy nagyon szépen látszik a
+  kép gyors változása.</p>
 
  <p>A két próbálkozási lehetőségnél különböző expozíciós időket próbáltam, az eredményeket elnézve nincs igazából nagy különbség.
     Pontosabban a Baily-féle gyöngyfűzér nagyon hasonló, a különbség inkább az, hogy hosszabb vagy rövidebb ív látszik-e a képeken. Az eltérő expozíciós idő
     akkor okoz gondot, ha egy képen akarjuk a két sorozatot
     megjeleníteni, ez nem is sikerült. A másik ok ami miatt nem
-    érdemes a képeket összeilleszteni az az, hogy nem a középvonalon
-    voltunk, így a képeket forgatni is kellene.</p>
+    érdemes a képeket összeilleszteni az az, hogy nem a napfogyatkozás
+    középvonalán voltunk, így a képeket forgatni is kellene.</p>
 
-<p>Ezeknél a képeknél látszik leginkább, hogy nem teljesen sikerült az
+<p>Ezeknél a képeknél látszik leginkább, hogy nem teljesen sikerült a
   távcső élességét beállítani.</p>
+
+<p>A napfogyatkozás után vettem érsze, hogy a sajnos csak Mac alatt
+  futó <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/Solar_Eclipse_Maestro_Photography_Software.html">Solar
+  Eclipse Maestro</a> programban Baily-gyöngyfűzér szimulátor is
+  van, vagyis elég jól láthatjuk előre, milyen lesz a
+  gyöngyfűzér. A napfogyatkozás utáni fényképeket (köztük az én
+  képeimet is) <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_20160309_pg02_Baily_Beads_Observations.html">ellenőrizve</a> látszik,
+  hogy az előrejelzés meglehetősen pontos. </p>
 </div>
 
+<div class='section' id='gyemant'>
+<h2>Gyémántgyűrű</h2>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8135_web.jpg" title="Gyémántgyűrű 2. kontaktus"><img
+         src="imgp8135_th.jpg" /></a>
+<figcaption>Gyémántgyűrű<br />2. kontaktus</figcaption>
+</figure>
+
+<figure class="image">
+<a class="fancybox" data-fancybox-group="gallery"
+         href="imgp8206_web.jpg" title="Gyémántgyűrű 3. kontaktus"><img
+         src="imgp8206_th.jpg" /></a>
+<figcaption>Gyémántgyűrű<br /> 3. kontaktus</figcaption>
+</figure>
+
+<div class="clear"></div>
+
+<p></p>
+
+<p>A gyémántgyűrűhöz leginkább hasonló képet a Baily
+  sorozat két képének módosításával (fényesség, kontraszt állítás...)
+  tudtam készíteni. A második kontaktus képénél a Nap már
+  éppen kezdett kimászni a képből.</p>
+
+
+</div>
 
 <div class='section' id='video'>
 <h2>Videó</h2>
@@ -544,7 +605,7 @@ hasonlít.</p>
 <li>A részleges fázis képei között nem teljesen azonos az
   időkülönbség, ez látszik a videón.</li>
 <li>Sokkal jobban fel van gyorsítva a részleges fázis mint pl. a
-  Baily-féle gyöngyfűzér, eszerűen azért, mert aránytalanul hosszabb a
+  Baily-féle gyöngyfűzér, egyszerűen azért, mert aránytalanul hosszabb a
   valóságban a   részleges fázis. Hasonlóan túl hosszú a valóságban a
   részleges fázis a totalitáshoz képest.</li>
 <li>Úgy tűnhet a videót nézve, hogy a részleges fázisban kisebb a
@@ -556,9 +617,6 @@ hasonlít.</p>
 </ul>
 
 </div>
-<p>
-  TODO: Külön a gyémántgyűrű??.
-</p>
 
 <div class='section' id='multiexpo'>
 <h2>Multiexpó részleges fázisokkal, totalitással</h2>
@@ -664,7 +722,8 @@ felhasználásával (1 kép a részleges fázisnak, 1 kép a totalitásnak, 1 k�
 Felmerülhet a kérdés, milyen képet lehet készíteni állvány nélkül
 ( <em>hihetetlen, de vannak akik nem szeretnének a világ túlső felére több
 állványt is elvinni</em> ). A következő kép a totalitás alatt készült
-kézből egy kicsi Pentax Q-S1 géppel alap zoom objektívvel.
+kézből egy kicsi Pentax Q-S1 géppel alap zoom objektívvel. A képet a
+barátnőm készítette, aki végig hasznos segítő volt a napfogyatkozás során.
 
 <div class="clear"></div>
 
@@ -680,10 +739,7 @@ kézből egy kicsi Pentax Q-S1 géppel alap zoom objektívvel.
 
 </div>
 
-<div class="footer">
-
-<p><a href="mailto:andras.salamon@melda.info">E-mail</a></p>
-
-</div>
+<footer>
+</footer>
 </body>
 </html>

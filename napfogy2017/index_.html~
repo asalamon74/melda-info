@@ -28,13 +28,13 @@
   <script type="text/javascript" src="/scripts/default.js"></script>
 
   
-  <title>Teljes napfogyatkozás 2016.</title>
+  <title>Teljes napfogyatkozás 2017.</title>
   <link rel="Stylesheet" title="Default Stylesheet"  href="../navi.css" />
   <meta name="keywords"
-  content="napfogyatkozás, nap, fényképezés, fotó, Indonézia, Pentax, Revue, Chinon"
+  content="napfogyatkozás, nap, fényképezés, fotó, USA, Pentax"
   />
   <meta name="description" content="Teljes napfogyatkozás fényképezése
-  2016. Indonézia" />
+  2017. USA" />
   <style>
     div.imagecaption, figure.image {
     margin: 0.4em;
@@ -63,21 +63,20 @@
   <li id='p4'><a href="#baily">4. Baily</a></li>
   <li id='p5'><a href="#gyemant">5. Gyémánt</a></li>
   <li id='p6'><a href="#video">6. Videó</a></li>
-  <li id='p7'><a href="#multiexpo">7. Multiexpó</a></li>
   <li id='p8'><a href="#allvanyno">8. Állvány nélkül</a></li>
   </ul>
 </div>
 
 <div id="topbar">
   <p>&nbsp;
-    <a style="float:right;" href="../en/napfogy2016/" class="flag-icon flag-icon-gb-eng"></a>
+    <a style="float:right;" href="../en/napfogy2017/" class="flag-icon flag-icon-gb-eng"></a>
     <span style="float:right; margin-right: 0.5em;" class="flag-icon flag-icon-hu"></span>
   </p>
 </div>
 
 <div class='main'>
 
-<h1>Teljes napfogyatkozás 2016. Indonézia</h1>
+<h1>Teljes napfogyatkozás 2017. USA</h1>
 
 <p>A szokásos figyelmeztetés: <span
 style="color: #E50000">A totalitás fázisát kivéve
@@ -91,9 +90,7 @@ szűrőfólia nélkül ne nézz a napba, pláne ne távcsővel!</span></p>
   Paluhoz közel. Itt figyelte a napfogyatkozást Indonézia
   <a href="http://www.antarasulteng.com/berita/24252/vice-president-kalla-watches-total-solar-eclipse-in-sigi-c-sulawesi">alelnöke</a> is, el is tartott egy ideig, míg meggyőztük a
   helyieket, hogy mi a napfogyatkozásra vagyunk kíváncsiak, és nem a
-  politikusra. Elég nemzetközi csapat jött össze. Nem mi voltunk az
-  egyedüli magyarok, egy nálunk sokkal rutinosabb magyar
-  megfigyelőpáros is volt ott. Az ő képeiket <a href="https://www.youtube.com/watch?v=KQD3cBf2gzk">itt</a> lehet megnézni.</p>
+  politikusra. </p>
 
 <figure class="image">
 <a class="fancybox" data-fancybox-group="gallery"
@@ -120,8 +117,8 @@ szűrőfólia nélkül ne nézz a napba, pláne ne távcsővel!</span></p>
 <div class="clear"></div>
 <p>
 Az észlelési hely koordinátája: 
-<a href="http://maps.google.com/maps?z=12&t=k&q=loc:-0.990821+119.874038">0.990821
-  S,119.874038 E</a>.
+<a target="_blank" href="http://maps.google.com/maps?z=12&t=k&q=loc:+40.28543,-96.83085">40.28543 N,
+  S,96.83085 W</a>.
 </p>
 
 <p>A totalitás sávja jól látható Xavier M. Jubier <a href="http://xjubier.free.fr/en/site_pages/solar_eclipses/TSE_2016_GoogleMapFull.html">google térképén</a>.</p>
@@ -140,19 +137,18 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
   Én az állványt lemérve vettem a bőröndöt, lehet, hogy szerencsésebb lett volna a meglévő bőröndöket lemérve venni az állványt.
 </li> 
 <li>Távcső: SkyWatcher Makszutov-Cassegrain 102/1300</li>
-<li>Fényképezőgép: <a href="http://kmp.pentaxians.eu/bodies/k/kx/">Pentax
+<li>TODO Solar finder</li>
+<li>Fényképezőgép: <a href="http://kmp.bdimitrov.de/bodies/K/Kx.html">Pentax
     K-x</a> (APS-C digitális gép)</li>
 <li>A távcsővet egy T2-K bajonett adapterrel csatlakoztattam a fényképezőgéphez (T2-adapter létezik az összes ismertebb fényképezőgéptípushoz),
-  így lényegében egy 1300mm-es F/12.7 fényerejű teleobjektívval fényképeztem. Az előzetesen vártaknak megfelelően kb. 12mm-es a
+  így lényegében egy 1300mm-es F/12.7 fényerejű teleobjektívval
+  fényképeztem. Az előzetesen <a href="https://www.gps-coordinates.net/gps-coordinates-converter"vártaknak</a> megfelelően kb. 12mm-es a
   szenzoron a nap képe. Ez eléggé közel van az APS-C szenzor méretéhez (23.6 x 15.8 mm).</li>
 <li>Filter: Baader Astrosolar OD 3.8.</li>
-<li>A képeket vezeték nélküli távkioldóval (Ebayről 300Ft)
-  készítettem, hogy minél kevésbé mozduljon be a gép. <em>(Hasznos
-    lehetne még a tükörfelcsapás utáni késleltetés, vagy az
-    automatikus expozíciósorozat is, sajnos a három hasznos funkcióból
-    egyszerre csak egyet lehet választani.)</em></li>
-<li>A fényképezőgép 4 ceruzaelemmel működik, ebből vadonatújat (lithium) használtam, hogy nehogy lemerüljön napfogyatkozás közben.
-  És volt persze tartalék is baj esetére. Általánosságban igaz szerintem, hogy az összes elemmel, akkumulátorral működő elektronikai
+<li>A képeket vezetékes távkioldóval (JJC TM-PK1) készítettem, hogy
+  minél kevésbé mozduljon be a gép.</li>
+<li>A fényképezőgéphez vettem tartalék akkumulátort, ezt <a href="../dli109">teszteltem</a> is
+  előtte, hogy lássan mennyire bírja a terhelést. Általánosságban igaz szerintem, hogy az összes elemmel, akkumulátorral működő elektronikai
   eszköznél teljesen feltöltve, tartalékkal készülve érdemes menni.</li>
 </ul>
 
@@ -166,20 +162,9 @@ A legtöbb kép a következő felszereléssel készült (ahol nem, ott külön j
 
 <div class="clear"></div>
 
-<p>A felszerelést egy <a href="https://www.youtube.com/watch?v=1IWMxQuWjkY">videón</a> is meg lehet nézni.</p>
-
-<p>A kontaktusok idejének kiszámolásához az <a href="https://play.google.com/store/apps/details?id=com.FlyteSoft.EclipseChaserMobile">Eclipse
-    Chaser Mobile</a> programot használtam, ami a mobiltelefon GPS
-    jele alapján számolja ki a kontaktusok idejét. Ez nem teljesen
-    egyezik meg a fenti google maps által számított idővel 2
-    másodperces eltérés van a két számítás között. A program minden hibája ellenére nagy segítség, főleg ha nem teljesen tudjuk előre a pontos észlelési helyet.</p>
-
-
-<figure class="image">
-<a class="fancybox" data-fancybox-group="gallery" href="imgp2885.jpg" title="Eclipse Chaser Mobile" ><img
-        src="imgp2885_th.jpg" /></a>
-<figcaption>Eclipse Chaser Mobile</figcaption>
-</figure>
+<p>A kontaktusok idejének kiszámolásához az <a href="https://play.google.com/store/apps/details?id=calcEclipsi2.src">Eclipse
+    Calculator 2</a> programot használtam, ami a mobiltelefon GPS
+    jele alapján számolja ki a kontaktusok idejét. A program nagy segítség, főleg ha nem teljesen tudjuk előre a pontos észlelési helyet.</p>
 
 <div class="clear"></div>
 
@@ -618,103 +603,6 @@ hasonlít.</p>
 
 </div>
 
-<div class='section' id='multiexpo'>
-<h2>Multiexpó részleges fázisokkal, totalitással</h2>
-
-<p></p>
-
-<figure class="image">
-<a class="fancybox" data-fancybox-group="gallery" href="multi_web.jpg"
-   title="multiexpo" >
-<img class="noscale" src="multi_th.jpg" />
-</a>
-<figcaption>Multiexpó - 12 percenként</figcaption>
-</figure>
-
-<div class="clear" ></div>
-
-<p>A képen egyszerre látható a részleges fázis több képe, és a totalitás. A
-kép alján szépen látható a folyamat, ahogy a hold egyre inkább
-eltakarja a napot, középen a totalitás, felül a folyamat, ahogy a nap
-újra egyre jobban látszik. A kép elkészítéséhez semmilyen digitális trükköt
-nem alkalmaztam, egyetlen negatívkockára exponáltam több képet.</p>
-
-<p></p>
-
-<h3>Felszerelés</h3>
-
-<p></p>
-
-<p>A kép elkészítéséhez egy olyan gép kell, amelyik képes egy kockára többet
-exponálni. Én egy manuális <a href="http://camera-wiki.org/wiki/Revue_AC_5">Revue AC-5</a> gépet használtam (ez a gép lényegében
-azonos a Chinon CP-7m géppel, csak más piacra gyártották). Egy alap 50mm-es
-objektív ( SMC PENTAX-A 50mm f2 ) volt a gépen.</p>
-
-<p>ISO 400-as film (Fuji Superia X-TRA 400), 22-es rekesz (az egyik kép 11-es rekesszel készült, mert felhősebb volt az ég).
-Az expozíciós idő a részleges fázisoknál 1/2000
-mp, a totalitásnál 1/4 mp. Az egyes expozíciók között 12 perc telt el. A
-gépnek az expozíciók között mozdulatlannak kell lennie, ezért természetesen
-állványt (Egy viszonylag könnyű Manfrottót) használtam, és figyeltem, hogy a kép elkészítése során (kb. 2.5 óra)
-senki ne rúgjon bele az állványba.</p>
-
-<p>A felszerelést mutató <a href="#felszereles">fenti képen</a> jobb oldalon látható az állvány
-  és a gép amivel ez a kép készült.</p>
-
-<h3>Felkészülés</h3>
-
-<p></p>
-
-<p>A részleges fázisok fotózására elég jól fel lehet készülni napfogyatkozás
-nélkül is. A szűrő tesztelésén kívül több dolgot is el kell eldönteni:</p>
-<ul>
-  <li><em><strong>Objektív</strong></em>: Felmerült, hogy az f2-es objektív helyett inkább f1.9-est,
-    vagy f1.4-est használok, de a tesztek alapján eléggé egyforma
-    eredményt adtak, szóval maradtam az f2-esnél. (<em>Miért is van
-    nekem 3 db 50mm-es PK objektívem?</em>) </li>
-  <li><em><strong>Rekesz</strong></em>: Az OD 3.8-as szűrővel már-már túl
-    sok fény jut a gépbe, így az objektív legszűkebb rekeszét, F22-t választottam.</li>
-  <li><strong><em>Részleges fázisok expozíciós ideje:</em></strong>.
-    A szinte túl sok fény miatt a gép lehető legrövidebb expozíciós idejét
-    1/2000-et választottam. Azonos idővel fényképeztem az összes képnél a részleges fázis alatt.</li>
-  <li><strong><em>Expozíciók gyakorisága:</em></strong> 2006-ben sikerült egy
-    <a href="../napfogy2006/#multiexpo">ilyen képet</a> készítenem 15 percenként fényképezve, így most kissé gyakrabban,
-    12 percenként fényképeztem. (Revue AC-5-nél ezt automatikusan be lehet állítani egy távkioldó
-    segítségével).</li>
-  <li><strong><em>Totalitás rekesze és expozíciós ideje:</em></strong>
-  Legutóbb F8-at és 1/2 másodpercet választottam, de kicsit bemozdult a kép. Így most F8-at és 1/4-et választottam. </li>
-</ul>
-
-<p></p>
-
-<p>Az expozíciók időzítésénél a totalitás idejéből kell kiindulni, onnan
-visszaszámolni a 12 perceket, hogy a képen a totalitás is látszódjék.</p>
-
-<h3>Megjegyzések</h3>
-
-<ul>
-
-<li>Az ehhez hasonló képeket gyakran úgy készítik el, hogy az ég világosabb
-legyen, és az előtérben valami szép épület vagy fa sziluettje látszódjon.
-  Most volt is egy szimpatikus fa a közelben, de egyszerűen nem fért a képre.
-  Nagyobb látószögű objektív kellene ahhoz, hogy egy ilyen plusz
-  dolog is a képre férjen, viszont ez egyben azt is jelentené, hogy pont a lényeg (a Nap) lenne kisebb.</li>
-
-<li>Igen gyakran az ilyen képeket digitálisan készítik több kép
-felhasználásával (1 kép a részleges fázisnak, 1 kép a totalitásnak, 1 kép az
-épületnek). Nyilván egyszerűbb a képet több képből összeilleszteni, de nekem
-  érdekesebbnek tűnt egyetlen kockára exponálni.</li>
-
-<li>A totalitás utáni első képen alig látszik a nap, mert felhős volt
-  éppen az exponáláskor az ég. Bár F22 helyett F11-et használtam, így
-  is nagyon halvány a nap. Utólag nyilvánvaló, hogy még tágabb rekesz
-  kellett volna.</li>
-
-<li>A totalitásnál az F8 1/4 másodperc sokkal jobb eredményt adott
-  mint F8 és 1/2. Talán F5.6 1/8 még jobb lenne.</li>
-
-<li>Hát nem igazán sikerült középre komponálni a képsorozatot.</li>
-</ul>
-</div>
 
 <div class='section' id='allvanyno'>
 <h2>Állvány nélkül</h2>
