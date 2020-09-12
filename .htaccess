@@ -3,5 +3,4 @@
 DirectoryIndex index.html
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^sala.melda.info$
-RewriteRule ^bash_completion.html$ http://commandline.blog.hu/2012/01/20/bash_parancssori_kiegeszites [R=301,L]
 ErrorDocument 404 http://sala.melda.info/404.html
