@@ -1,6 +1,0 @@
-#Options All
-#  
-DirectoryIndex index.html
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^sala.melda.info$
-ErrorDocument 404 http://sala.melda.info/404.html
